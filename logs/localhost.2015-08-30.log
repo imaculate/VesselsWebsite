@@ -1,0 +1,1860 @@
+30-Aug-2015 13:53:32.844 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+30-Aug-2015 13:53:32.844 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+30-Aug-2015 14:21:09.518 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+30-Aug-2015 14:21:09.519 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+30-Aug-2015 14:26:55.387 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+30-Aug-2015 14:26:55.387 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+30-Aug-2015 14:28:21.214 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+30-Aug-2015 14:28:21.214 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+30-Aug-2015 17:44:24.690 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+30-Aug-2015 17:44:24.690 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+30-Aug-2015 17:47:18.239 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+30-Aug-2015 17:47:18.240 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+30-Aug-2015 17:55:36.378 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+30-Aug-2015 17:55:36.379 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+30-Aug-2015 17:55:45.487 SEVERE [http-apr-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 46 in the jsp file: /vessels.jsp
+FileNotFoundException cannot be resolved to a type
+43:    } 
+44:    outs+= "]"; 
+45:   
+46:   } catch (FileNotFoundException e) {  
+47:    e.printStackTrace();  
+48:   } catch (IOException e) {  
+49:    e.printStackTrace();  
+
+
+An error occurred at line: 48 in the jsp file: /vessels.jsp
+IOException cannot be resolved to a type
+45:   
+46:   } catch (FileNotFoundException e) {  
+47:    e.printStackTrace();  
+48:   } catch (IOException e) {  
+49:    e.printStackTrace();  
+50:   } finally {  
+51:    if (br != null) {  
+
+
+An error occurred at line: 54 in the jsp file: /vessels.jsp
+IOException cannot be resolved to a type
+51:    if (br != null) {  
+52:     try {  
+53:      br.close();  
+54:     } catch (IOException e) {  
+55:      e.printStackTrace();  
+56:     }  
+57:    }  
+
+
+An error occurred at line: 61 in the jsp file: /vessels.jsp
+Syntax error, insert "Finally" to complete TryStatement
+58:   }  
+59:   
+60:   out.println(out);
+61:  }  
+62: out.println("Your IP address is " + request.getRemoteAddr());
+63: %>
+64: </body>
+
+
+An error occurred at line: [167] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: [169] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [169] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+An error occurred at line: [170] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [170] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [172] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+response cannot be resolved
+
+An error occurred at line: [173] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [175] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [178] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+An error occurred at line: [178] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+_jspx_page_context cannot be resolved
+
+An error occurred at line: [181] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error on token "finally", { expected
+
+An error occurred at line: [182] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 46 in the jsp file: /vessels.jsp
+FileNotFoundException cannot be resolved to a type
+43:    } 
+44:    outs+= "]"; 
+45:   
+46:   } catch (FileNotFoundException e) {  
+47:    e.printStackTrace();  
+48:   } catch (IOException e) {  
+49:    e.printStackTrace();  
+
+
+An error occurred at line: 48 in the jsp file: /vessels.jsp
+IOException cannot be resolved to a type
+45:   
+46:   } catch (FileNotFoundException e) {  
+47:    e.printStackTrace();  
+48:   } catch (IOException e) {  
+49:    e.printStackTrace();  
+50:   } finally {  
+51:    if (br != null) {  
+
+
+An error occurred at line: 54 in the jsp file: /vessels.jsp
+IOException cannot be resolved to a type
+51:    if (br != null) {  
+52:     try {  
+53:      br.close();  
+54:     } catch (IOException e) {  
+55:      e.printStackTrace();  
+56:     }  
+57:    }  
+
+
+An error occurred at line: 61 in the jsp file: /vessels.jsp
+Syntax error, insert "Finally" to complete TryStatement
+58:   }  
+59:   
+60:   out.println(out);
+61:  }  
+62: out.println("Your IP address is " + request.getRemoteAddr());
+63: %>
+64: </body>
+
+
+An error occurred at line: [167] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: [169] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [169] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+An error occurred at line: [170] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [170] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [172] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+response cannot be resolved
+
+An error occurred at line: [173] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [175] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [178] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+An error occurred at line: [178] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+_jspx_page_context cannot be resolved
+
+An error occurred at line: [181] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error on token "finally", { expected
+
+An error occurred at line: [182] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:198)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:450)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:585)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:363)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1091)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:673)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2503)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2492)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:722)
+
+30-Aug-2015 17:58:20.785 SEVERE [http-apr-8080-exec-6] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 46 in the jsp file: /vessels.jsp
+FileNotFoundException cannot be resolved to a type
+43:    } 
+44:    outs+= "]"; 
+45:   
+46:   } catch (FileNotFoundException e) {  
+47:    e.printStackTrace();  
+48:   } catch (IOException e) {  
+49:    e.printStackTrace();  
+
+
+An error occurred at line: 48 in the jsp file: /vessels.jsp
+IOException cannot be resolved to a type
+45:   
+46:   } catch (FileNotFoundException e) {  
+47:    e.printStackTrace();  
+48:   } catch (IOException e) {  
+49:    e.printStackTrace();  
+50:   } finally {  
+51:    if (br != null) {  
+
+
+An error occurred at line: 54 in the jsp file: /vessels.jsp
+IOException cannot be resolved to a type
+51:    if (br != null) {  
+52:     try {  
+53:      br.close();  
+54:     } catch (IOException e) {  
+55:      e.printStackTrace();  
+56:     }  
+57:    }  
+
+
+An error occurred at line: 61 in the jsp file: /vessels.jsp
+Syntax error, insert "Finally" to complete TryStatement
+58:   }  
+59:   
+60:   out.println(out);
+61:  }  
+62: out.println("Your IP address is " + request.getRemoteAddr());
+63: %>
+64: </body>
+
+
+An error occurred at line: [167] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: [169] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [169] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+An error occurred at line: [170] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [170] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [172] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+response cannot be resolved
+
+An error occurred at line: [173] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [175] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [178] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+An error occurred at line: [178] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+_jspx_page_context cannot be resolved
+
+An error occurred at line: [181] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error on token "finally", { expected
+
+An error occurred at line: [182] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 46 in the jsp file: /vessels.jsp
+FileNotFoundException cannot be resolved to a type
+43:    } 
+44:    outs+= "]"; 
+45:   
+46:   } catch (FileNotFoundException e) {  
+47:    e.printStackTrace();  
+48:   } catch (IOException e) {  
+49:    e.printStackTrace();  
+
+
+An error occurred at line: 48 in the jsp file: /vessels.jsp
+IOException cannot be resolved to a type
+45:   
+46:   } catch (FileNotFoundException e) {  
+47:    e.printStackTrace();  
+48:   } catch (IOException e) {  
+49:    e.printStackTrace();  
+50:   } finally {  
+51:    if (br != null) {  
+
+
+An error occurred at line: 54 in the jsp file: /vessels.jsp
+IOException cannot be resolved to a type
+51:    if (br != null) {  
+52:     try {  
+53:      br.close();  
+54:     } catch (IOException e) {  
+55:      e.printStackTrace();  
+56:     }  
+57:    }  
+
+
+An error occurred at line: 61 in the jsp file: /vessels.jsp
+Syntax error, insert "Finally" to complete TryStatement
+58:   }  
+59:   
+60:   out.println(out);
+61:  }  
+62: out.println("Your IP address is " + request.getRemoteAddr());
+63: %>
+64: </body>
+
+
+An error occurred at line: [167] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: [169] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [169] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+An error occurred at line: [170] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [170] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [172] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+response cannot be resolved
+
+An error occurred at line: [173] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [175] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [178] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+An error occurred at line: [178] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+_jspx_page_context cannot be resolved
+
+An error occurred at line: [181] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error on token "finally", { expected
+
+An error occurred at line: [182] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:198)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:450)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:585)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:363)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1091)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:673)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2503)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2492)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:722)
+
+30-Aug-2015 18:02:51.963 SEVERE [http-apr-8080-exec-9] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 70 in the jsp file: /vessels.jsp
+Syntax error, insert "Finally" to complete TryStatement
+67:   }  
+68:   
+69:   out.println(out);
+70:  }  
+71: out.println("Your IP address is " + request.getRemoteAddr());
+72: %>
+73: </body>
+
+
+An error occurred at line: [185] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: [187] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [187] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+An error occurred at line: [188] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [188] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [190] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+response cannot be resolved
+
+An error occurred at line: [191] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [193] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [196] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+An error occurred at line: [196] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+_jspx_page_context cannot be resolved
+
+An error occurred at line: [199] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error on token "finally", { expected
+
+An error occurred at line: [200] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 70 in the jsp file: /vessels.jsp
+Syntax error, insert "Finally" to complete TryStatement
+67:   }  
+68:   
+69:   out.println(out);
+70:  }  
+71: out.println("Your IP address is " + request.getRemoteAddr());
+72: %>
+73: </body>
+
+
+An error occurred at line: [185] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: [187] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [187] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+An error occurred at line: [188] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [188] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [190] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+response cannot be resolved
+
+An error occurred at line: [191] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [193] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [196] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+An error occurred at line: [196] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+_jspx_page_context cannot be resolved
+
+An error occurred at line: [199] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error on token "finally", { expected
+
+An error occurred at line: [200] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:198)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:450)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:585)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:363)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1091)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:673)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2503)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2492)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:722)
+
+30-Aug-2015 18:19:34.116 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+30-Aug-2015 18:19:34.116 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+30-Aug-2015 18:19:43.466 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+30-Aug-2015 18:19:43.466 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+30-Aug-2015 18:26:39.429 SEVERE [http-apr-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 68 in the jsp file: /vessels.jsp
+Void methods cannot return a value
+65:     }  
+66:    }  
+67:   }
+68:   return out;
+69:   }  
+70:   
+71:  
+
+
+An error occurred at line: 69 in the jsp file: /vessels.jsp
+Syntax error, insert "Finally" to complete TryStatement
+66:    }  
+67:   }
+68:   return out;
+69:   }  
+70:   
+71:  
+72:    
+
+
+An error occurred at line: 75 in the jsp file: /vessels.jsp
+The method readCsv() is undefined for the type vessels_jsp
+72:    
+73: 	out.println("Your IP address is " + request.getRemoteAddr());
+74: %>
+75: <% readCsv()%>
+76: </body>
+77: </html>
+
+
+An error occurred at line: 75 in the jsp file: /vessels.jsp
+Syntax error, insert ";" to complete Statement
+72:    
+73: 	out.println("Your IP address is " + request.getRemoteAddr());
+74: %>
+75: <% readCsv()%>
+76: </body>
+77: </html>
+
+
+An error occurred at line: [190] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: [192] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [192] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+An error occurred at line: [193] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [193] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [195] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+response cannot be resolved
+
+An error occurred at line: [196] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [198] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [201] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+An error occurred at line: [201] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+_jspx_page_context cannot be resolved
+
+An error occurred at line: [204] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error on token "finally", { expected
+
+An error occurred at line: [205] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 68 in the jsp file: /vessels.jsp
+Void methods cannot return a value
+65:     }  
+66:    }  
+67:   }
+68:   return out;
+69:   }  
+70:   
+71:  
+
+
+An error occurred at line: 69 in the jsp file: /vessels.jsp
+Syntax error, insert "Finally" to complete TryStatement
+66:    }  
+67:   }
+68:   return out;
+69:   }  
+70:   
+71:  
+72:    
+
+
+An error occurred at line: 75 in the jsp file: /vessels.jsp
+The method readCsv() is undefined for the type vessels_jsp
+72:    
+73: 	out.println("Your IP address is " + request.getRemoteAddr());
+74: %>
+75: <% readCsv()%>
+76: </body>
+77: </html>
+
+
+An error occurred at line: 75 in the jsp file: /vessels.jsp
+Syntax error, insert ";" to complete Statement
+72:    
+73: 	out.println("Your IP address is " + request.getRemoteAddr());
+74: %>
+75: <% readCsv()%>
+76: </body>
+77: </html>
+
+
+An error occurred at line: [190] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: [192] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [192] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+An error occurred at line: [193] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [193] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [195] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+response cannot be resolved
+
+An error occurred at line: [196] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [198] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [201] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+An error occurred at line: [201] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+_jspx_page_context cannot be resolved
+
+An error occurred at line: [204] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error on token "finally", { expected
+
+An error occurred at line: [205] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:198)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:450)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:585)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:363)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1091)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:673)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2503)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2492)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:722)
+
+30-Aug-2015 18:27:42.291 SEVERE [http-apr-8080-exec-5] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 25 in the jsp file: /vessels.jsp
+Syntax error on token "String", new expected
+22: <body>
+23: Hello World!<br/>
+24: <%
+25:   String readCsv() {  
+26: String csvFileToRead = "vessels.csv";  
+27:   BufferedReader br = null;  
+28:   String line = "";  
+
+
+An error occurred at line: 25 in the jsp file: /vessels.jsp
+readCsv cannot be resolved to a type
+22: <body>
+23: Hello World!<br/>
+24: <%
+25:   String readCsv() {  
+26: String csvFileToRead = "vessels.csv";  
+27:   BufferedReader br = null;  
+28:   String line = "";  
+
+
+An error occurred at line: 30 in the jsp file: /vessels.jsp
+Syntax error, insert "}" to complete ClassBody
+27:   BufferedReader br = null;  
+28:   String line = "";  
+29:   String splitBy = "\\|"; 
+30:   String outs = "["; 
+31:   
+32:   try {  
+33:   
+
+
+An error occurred at line: 30 in the jsp file: /vessels.jsp
+Syntax error, insert ";" to complete Statement
+27:   BufferedReader br = null;  
+28:   String line = "";  
+29:   String splitBy = "\\|"; 
+30:   String outs = "["; 
+31:   
+32:   try {  
+33:   
+
+
+An error occurred at line: 69 in the jsp file: /vessels.jsp
+Syntax error, insert "Finally" to complete TryStatement
+66:    }  
+67:   }
+68:   return out;
+69:   }  
+70:   
+71:  
+72:    
+
+
+An error occurred at line: 75 in the jsp file: /vessels.jsp
+Syntax error, insert ";" to complete Statement
+72:    
+73: 	out.println("Your IP address is " + request.getRemoteAddr());
+74: %>
+75: <% readCsv()%>
+76: </body>
+77: </html>
+
+
+An error occurred at line: [190] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error on tokens, delete these tokens
+
+An error occurred at line: [190] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error on token(s), misplaced construct(s)
+
+An error occurred at line: [190] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error, insert "AssignmentOperator Expression" to complete Assignment
+
+An error occurred at line: [190] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error, insert ";" to complete Statement
+
+An error occurred at line: [204] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error on token "finally", delete this token
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 25 in the jsp file: /vessels.jsp
+Syntax error on token "String", new expected
+22: <body>
+23: Hello World!<br/>
+24: <%
+25:   String readCsv() {  
+26: String csvFileToRead = "vessels.csv";  
+27:   BufferedReader br = null;  
+28:   String line = "";  
+
+
+An error occurred at line: 25 in the jsp file: /vessels.jsp
+readCsv cannot be resolved to a type
+22: <body>
+23: Hello World!<br/>
+24: <%
+25:   String readCsv() {  
+26: String csvFileToRead = "vessels.csv";  
+27:   BufferedReader br = null;  
+28:   String line = "";  
+
+
+An error occurred at line: 30 in the jsp file: /vessels.jsp
+Syntax error, insert "}" to complete ClassBody
+27:   BufferedReader br = null;  
+28:   String line = "";  
+29:   String splitBy = "\\|"; 
+30:   String outs = "["; 
+31:   
+32:   try {  
+33:   
+
+
+An error occurred at line: 30 in the jsp file: /vessels.jsp
+Syntax error, insert ";" to complete Statement
+27:   BufferedReader br = null;  
+28:   String line = "";  
+29:   String splitBy = "\\|"; 
+30:   String outs = "["; 
+31:   
+32:   try {  
+33:   
+
+
+An error occurred at line: 69 in the jsp file: /vessels.jsp
+Syntax error, insert "Finally" to complete TryStatement
+66:    }  
+67:   }
+68:   return out;
+69:   }  
+70:   
+71:  
+72:    
+
+
+An error occurred at line: 75 in the jsp file: /vessels.jsp
+Syntax error, insert ";" to complete Statement
+72:    
+73: 	out.println("Your IP address is " + request.getRemoteAddr());
+74: %>
+75: <% readCsv()%>
+76: </body>
+77: </html>
+
+
+An error occurred at line: [190] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error on tokens, delete these tokens
+
+An error occurred at line: [190] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error on token(s), misplaced construct(s)
+
+An error occurred at line: [190] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error, insert "AssignmentOperator Expression" to complete Assignment
+
+An error occurred at line: [190] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error, insert ";" to complete Statement
+
+An error occurred at line: [204] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error on token "finally", delete this token
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:198)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:450)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:585)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:363)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1091)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:673)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2503)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2492)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:722)
+
+30-Aug-2015 18:28:51.628 SEVERE [http-apr-8080-exec-8] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 68 in the jsp file: /vessels.jsp
+out cannot be resolved to a variable
+65:     }  
+66:    }  
+67:   }
+68:   return out;
+69:   }  
+70:   
+71:  
+
+
+An error occurred at line: 73 in the jsp file: /vessels.jsp
+Syntax error on token(s), misplaced construct(s)
+70:   
+71:  
+72:    
+73: 	out.println("Your IP address is " + request.getRemoteAddr());
+74: %>
+75: <% readCsv()%>
+76: </body>
+
+
+An error occurred at line: 73 in the jsp file: /vessels.jsp
+Syntax error on token "println", = expected after this token
+70:   
+71:  
+72:    
+73: 	out.println("Your IP address is " + request.getRemoteAddr());
+74: %>
+75: <% readCsv()%>
+76: </body>
+
+
+An error occurred at line: 75 in the jsp file: /vessels.jsp
+Syntax error, insert ";" to complete Statement
+72:    
+73: 	out.println("Your IP address is " + request.getRemoteAddr());
+74: %>
+75: <% readCsv()%>
+76: </body>
+77: </html>
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 68 in the jsp file: /vessels.jsp
+out cannot be resolved to a variable
+65:     }  
+66:    }  
+67:   }
+68:   return out;
+69:   }  
+70:   
+71:  
+
+
+An error occurred at line: 73 in the jsp file: /vessels.jsp
+Syntax error on token(s), misplaced construct(s)
+70:   
+71:  
+72:    
+73: 	out.println("Your IP address is " + request.getRemoteAddr());
+74: %>
+75: <% readCsv()%>
+76: </body>
+
+
+An error occurred at line: 73 in the jsp file: /vessels.jsp
+Syntax error on token "println", = expected after this token
+70:   
+71:  
+72:    
+73: 	out.println("Your IP address is " + request.getRemoteAddr());
+74: %>
+75: <% readCsv()%>
+76: </body>
+
+
+An error occurred at line: 75 in the jsp file: /vessels.jsp
+Syntax error, insert ";" to complete Statement
+72:    
+73: 	out.println("Your IP address is " + request.getRemoteAddr());
+74: %>
+75: <% readCsv()%>
+76: </body>
+77: </html>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:198)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:450)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:585)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:363)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1091)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:673)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2503)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2492)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:722)
+
+30-Aug-2015 18:29:13.052 SEVERE [http-apr-8080-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 73 in the jsp file: /vessels.jsp
+Syntax error on token(s), misplaced construct(s)
+70:   
+71:  
+72:    
+73: 	out.println("Your IP address is " + request.getRemoteAddr());
+74: %>
+75: <% readCsv()%>
+76: </body>
+
+
+An error occurred at line: 73 in the jsp file: /vessels.jsp
+Syntax error on token "println", = expected after this token
+70:   
+71:  
+72:    
+73: 	out.println("Your IP address is " + request.getRemoteAddr());
+74: %>
+75: <% readCsv()%>
+76: </body>
+
+
+An error occurred at line: 75 in the jsp file: /vessels.jsp
+Syntax error, insert ";" to complete Statement
+72:    
+73: 	out.println("Your IP address is " + request.getRemoteAddr());
+74: %>
+75: <% readCsv()%>
+76: </body>
+77: </html>
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 73 in the jsp file: /vessels.jsp
+Syntax error on token(s), misplaced construct(s)
+70:   
+71:  
+72:    
+73: 	out.println("Your IP address is " + request.getRemoteAddr());
+74: %>
+75: <% readCsv()%>
+76: </body>
+
+
+An error occurred at line: 73 in the jsp file: /vessels.jsp
+Syntax error on token "println", = expected after this token
+70:   
+71:  
+72:    
+73: 	out.println("Your IP address is " + request.getRemoteAddr());
+74: %>
+75: <% readCsv()%>
+76: </body>
+
+
+An error occurred at line: 75 in the jsp file: /vessels.jsp
+Syntax error, insert ";" to complete Statement
+72:    
+73: 	out.println("Your IP address is " + request.getRemoteAddr());
+74: %>
+75: <% readCsv()%>
+76: </body>
+77: </html>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:198)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:450)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:585)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:363)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1091)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:673)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2503)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2492)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:722)
+
+30-Aug-2015 18:29:42.532 SEVERE [http-apr-8080-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 73 in the jsp file: /vessels.jsp
+Syntax error on token(s), misplaced construct(s)
+70:   
+71:  
+72:    
+73: 	out.println("Your IP address is " + request.getRemoteAddr());
+74: %>
+75: <% =readCsv()%>
+76: </body>
+
+
+An error occurred at line: 73 in the jsp file: /vessels.jsp
+Syntax error on token "println", = expected after this token
+70:   
+71:  
+72:    
+73: 	out.println("Your IP address is " + request.getRemoteAddr());
+74: %>
+75: <% =readCsv()%>
+76: </body>
+
+
+An error occurred at line: 75 in the jsp file: /vessels.jsp
+Syntax error on token "=", @ expected
+72:    
+73: 	out.println("Your IP address is " + request.getRemoteAddr());
+74: %>
+75: <% =readCsv()%>
+76: </body>
+77: </html>
+
+
+An error occurred at line: 75 in the jsp file: /vessels.jsp
+out.write cannot be resolved to a type
+72:    
+73: 	out.println("Your IP address is " + request.getRemoteAddr());
+74: %>
+75: <% =readCsv()%>
+76: </body>
+77: </html>
+
+
+An error occurred at line: 75 in the jsp file: /vessels.jsp
+Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+72:    
+73: 	out.println("Your IP address is " + request.getRemoteAddr());
+74: %>
+75: <% =readCsv()%>
+76: </body>
+77: </html>
+
+
+An error occurred at line: 75 in the jsp file: /vessels.jsp
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+72:    
+73: 	out.println("Your IP address is " + request.getRemoteAddr());
+74: %>
+75: <% =readCsv()%>
+76: </body>
+77: </html>
+
+
+An error occurred at line: 75 in the jsp file: /vessels.jsp
+The left-hand side of an assignment must be a variable
+72:    
+73: 	out.println("Your IP address is " + request.getRemoteAddr());
+74: %>
+75: <% =readCsv()%>
+76: </body>
+77: </html>
+
+
+An error occurred at line: 75 in the jsp file: /vessels.jsp
+Syntax error, insert "AssignmentOperator Expression" to complete Expression
+72:    
+73: 	out.println("Your IP address is " + request.getRemoteAddr());
+74: %>
+75: <% =readCsv()%>
+76: </body>
+77: </html>
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 73 in the jsp file: /vessels.jsp
+Syntax error on token(s), misplaced construct(s)
+70:   
+71:  
+72:    
+73: 	out.println("Your IP address is " + request.getRemoteAddr());
+74: %>
+75: <% =readCsv()%>
+76: </body>
+
+
+An error occurred at line: 73 in the jsp file: /vessels.jsp
+Syntax error on token "println", = expected after this token
+70:   
+71:  
+72:    
+73: 	out.println("Your IP address is " + request.getRemoteAddr());
+74: %>
+75: <% =readCsv()%>
+76: </body>
+
+
+An error occurred at line: 75 in the jsp file: /vessels.jsp
+Syntax error on token "=", @ expected
+72:    
+73: 	out.println("Your IP address is " + request.getRemoteAddr());
+74: %>
+75: <% =readCsv()%>
+76: </body>
+77: </html>
+
+
+An error occurred at line: 75 in the jsp file: /vessels.jsp
+out.write cannot be resolved to a type
+72:    
+73: 	out.println("Your IP address is " + request.getRemoteAddr());
+74: %>
+75: <% =readCsv()%>
+76: </body>
+77: </html>
+
+
+An error occurred at line: 75 in the jsp file: /vessels.jsp
+Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+72:    
+73: 	out.println("Your IP address is " + request.getRemoteAddr());
+74: %>
+75: <% =readCsv()%>
+76: </body>
+77: </html>
+
+
+An error occurred at line: 75 in the jsp file: /vessels.jsp
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+72:    
+73: 	out.println("Your IP address is " + request.getRemoteAddr());
+74: %>
+75: <% =readCsv()%>
+76: </body>
+77: </html>
+
+
+An error occurred at line: 75 in the jsp file: /vessels.jsp
+The left-hand side of an assignment must be a variable
+72:    
+73: 	out.println("Your IP address is " + request.getRemoteAddr());
+74: %>
+75: <% =readCsv()%>
+76: </body>
+77: </html>
+
+
+An error occurred at line: 75 in the jsp file: /vessels.jsp
+Syntax error, insert "AssignmentOperator Expression" to complete Expression
+72:    
+73: 	out.println("Your IP address is " + request.getRemoteAddr());
+74: %>
+75: <% =readCsv()%>
+76: </body>
+77: </html>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:198)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:450)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:585)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:363)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1091)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:673)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2503)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2492)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:722)
+
+30-Aug-2015 18:30:14.701 SEVERE [http-apr-8080-exec-7] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 74 in the jsp file: /vessels.jsp
+Syntax error on token "=", @ expected
+71:  
+72:    %>
+73: 	<% out.println("Your IP address is " + request.getRemoteAddr()); %>
+74: <% =readCsv()%>
+75: </body>
+76: </html>
+
+
+An error occurred at line: 74 in the jsp file: /vessels.jsp
+out.write cannot be resolved to a type
+71:  
+72:    %>
+73: 	<% out.println("Your IP address is " + request.getRemoteAddr()); %>
+74: <% =readCsv()%>
+75: </body>
+76: </html>
+
+
+An error occurred at line: 74 in the jsp file: /vessels.jsp
+Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+71:  
+72:    %>
+73: 	<% out.println("Your IP address is " + request.getRemoteAddr()); %>
+74: <% =readCsv()%>
+75: </body>
+76: </html>
+
+
+An error occurred at line: 74 in the jsp file: /vessels.jsp
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+71:  
+72:    %>
+73: 	<% out.println("Your IP address is " + request.getRemoteAddr()); %>
+74: <% =readCsv()%>
+75: </body>
+76: </html>
+
+
+An error occurred at line: 74 in the jsp file: /vessels.jsp
+The left-hand side of an assignment must be a variable
+71:  
+72:    %>
+73: 	<% out.println("Your IP address is " + request.getRemoteAddr()); %>
+74: <% =readCsv()%>
+75: </body>
+76: </html>
+
+
+An error occurred at line: 74 in the jsp file: /vessels.jsp
+Syntax error, insert "AssignmentOperator Expression" to complete Expression
+71:  
+72:    %>
+73: 	<% out.println("Your IP address is " + request.getRemoteAddr()); %>
+74: <% =readCsv()%>
+75: </body>
+76: </html>
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 74 in the jsp file: /vessels.jsp
+Syntax error on token "=", @ expected
+71:  
+72:    %>
+73: 	<% out.println("Your IP address is " + request.getRemoteAddr()); %>
+74: <% =readCsv()%>
+75: </body>
+76: </html>
+
+
+An error occurred at line: 74 in the jsp file: /vessels.jsp
+out.write cannot be resolved to a type
+71:  
+72:    %>
+73: 	<% out.println("Your IP address is " + request.getRemoteAddr()); %>
+74: <% =readCsv()%>
+75: </body>
+76: </html>
+
+
+An error occurred at line: 74 in the jsp file: /vessels.jsp
+Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+71:  
+72:    %>
+73: 	<% out.println("Your IP address is " + request.getRemoteAddr()); %>
+74: <% =readCsv()%>
+75: </body>
+76: </html>
+
+
+An error occurred at line: 74 in the jsp file: /vessels.jsp
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+71:  
+72:    %>
+73: 	<% out.println("Your IP address is " + request.getRemoteAddr()); %>
+74: <% =readCsv()%>
+75: </body>
+76: </html>
+
+
+An error occurred at line: 74 in the jsp file: /vessels.jsp
+The left-hand side of an assignment must be a variable
+71:  
+72:    %>
+73: 	<% out.println("Your IP address is " + request.getRemoteAddr()); %>
+74: <% =readCsv()%>
+75: </body>
+76: </html>
+
+
+An error occurred at line: 74 in the jsp file: /vessels.jsp
+Syntax error, insert "AssignmentOperator Expression" to complete Expression
+71:  
+72:    %>
+73: 	<% out.println("Your IP address is " + request.getRemoteAddr()); %>
+74: <% =readCsv()%>
+75: </body>
+76: </html>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:198)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:450)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:585)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:363)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1091)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:673)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2503)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2492)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:722)
+
+30-Aug-2015 18:30:47.965 SEVERE [http-apr-8080-exec-10] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 74 in the jsp file: /vessels.jsp
+Syntax error on token "=", @ expected
+71:  
+72:    %>
+73: 	<% out.println("Your IP address is " + request.getRemoteAddr()); %>
+74: <% =readCsv() %>
+75: </body>
+76: </html>
+
+
+An error occurred at line: 74 in the jsp file: /vessels.jsp
+out.write cannot be resolved to a type
+71:  
+72:    %>
+73: 	<% out.println("Your IP address is " + request.getRemoteAddr()); %>
+74: <% =readCsv() %>
+75: </body>
+76: </html>
+
+
+An error occurred at line: 74 in the jsp file: /vessels.jsp
+Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+71:  
+72:    %>
+73: 	<% out.println("Your IP address is " + request.getRemoteAddr()); %>
+74: <% =readCsv() %>
+75: </body>
+76: </html>
+
+
+An error occurred at line: 74 in the jsp file: /vessels.jsp
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+71:  
+72:    %>
+73: 	<% out.println("Your IP address is " + request.getRemoteAddr()); %>
+74: <% =readCsv() %>
+75: </body>
+76: </html>
+
+
+An error occurred at line: 74 in the jsp file: /vessels.jsp
+The left-hand side of an assignment must be a variable
+71:  
+72:    %>
+73: 	<% out.println("Your IP address is " + request.getRemoteAddr()); %>
+74: <% =readCsv() %>
+75: </body>
+76: </html>
+
+
+An error occurred at line: 74 in the jsp file: /vessels.jsp
+Syntax error, insert "AssignmentOperator Expression" to complete Expression
+71:  
+72:    %>
+73: 	<% out.println("Your IP address is " + request.getRemoteAddr()); %>
+74: <% =readCsv() %>
+75: </body>
+76: </html>
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 74 in the jsp file: /vessels.jsp
+Syntax error on token "=", @ expected
+71:  
+72:    %>
+73: 	<% out.println("Your IP address is " + request.getRemoteAddr()); %>
+74: <% =readCsv() %>
+75: </body>
+76: </html>
+
+
+An error occurred at line: 74 in the jsp file: /vessels.jsp
+out.write cannot be resolved to a type
+71:  
+72:    %>
+73: 	<% out.println("Your IP address is " + request.getRemoteAddr()); %>
+74: <% =readCsv() %>
+75: </body>
+76: </html>
+
+
+An error occurred at line: 74 in the jsp file: /vessels.jsp
+Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+71:  
+72:    %>
+73: 	<% out.println("Your IP address is " + request.getRemoteAddr()); %>
+74: <% =readCsv() %>
+75: </body>
+76: </html>
+
+
+An error occurred at line: 74 in the jsp file: /vessels.jsp
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+71:  
+72:    %>
+73: 	<% out.println("Your IP address is " + request.getRemoteAddr()); %>
+74: <% =readCsv() %>
+75: </body>
+76: </html>
+
+
+An error occurred at line: 74 in the jsp file: /vessels.jsp
+The left-hand side of an assignment must be a variable
+71:  
+72:    %>
+73: 	<% out.println("Your IP address is " + request.getRemoteAddr()); %>
+74: <% =readCsv() %>
+75: </body>
+76: </html>
+
+
+An error occurred at line: 74 in the jsp file: /vessels.jsp
+Syntax error, insert "AssignmentOperator Expression" to complete Expression
+71:  
+72:    %>
+73: 	<% out.println("Your IP address is " + request.getRemoteAddr()); %>
+74: <% =readCsv() %>
+75: </body>
+76: </html>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:198)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:450)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:585)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:363)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1091)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:673)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2503)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2492)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:722)
+
+30-Aug-2015 18:31:00.330 SEVERE [http-apr-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 74 in the jsp file: /vessels.jsp
+Syntax error, insert ";" to complete Statement
+71:  
+72:    %>
+73: 	<% out.println("Your IP address is " + request.getRemoteAddr()); %>
+74: <%  readCsv() %>
+75: </body>
+76: </html>
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 74 in the jsp file: /vessels.jsp
+Syntax error, insert ";" to complete Statement
+71:  
+72:    %>
+73: 	<% out.println("Your IP address is " + request.getRemoteAddr()); %>
+74: <%  readCsv() %>
+75: </body>
+76: </html>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:198)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:450)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:585)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:363)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1091)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:673)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2503)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2492)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:722)
+
+30-Aug-2015 18:32:54.553 SEVERE [http-apr-8080-exec-9] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 74 in the jsp file: /vessels.jsp
+Syntax error on token "=", delete this token
+71:  
+72:    %>
+73: 	<% out.println("Your IP address is " + request.getRemoteAddr()); %>
+74: <%  =readCsv(); %>
+75: </body>
+76: </html>
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 74 in the jsp file: /vessels.jsp
+Syntax error on token "=", delete this token
+71:  
+72:    %>
+73: 	<% out.println("Your IP address is " + request.getRemoteAddr()); %>
+74: <%  =readCsv(); %>
+75: </body>
+76: </html>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:198)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:450)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:585)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:363)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1091)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:673)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2503)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2492)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:722)
+
+30-Aug-2015 18:33:10.731 SEVERE [http-apr-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 74 in the jsp file: /vessels.jsp
+Syntax error on token ";", delete this token
+71:  
+72:    %>
+73: 	<% out.println("Your IP address is " + request.getRemoteAddr()); %>
+74: <%= readCsv(); %>
+75: </body>
+76: </html>
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 74 in the jsp file: /vessels.jsp
+Syntax error on token ";", delete this token
+71:  
+72:    %>
+73: 	<% out.println("Your IP address is " + request.getRemoteAddr()); %>
+74: <%= readCsv(); %>
+75: </body>
+76: </html>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:198)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:450)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:585)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:363)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1091)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:673)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2503)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2492)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:722)
+
+30-Aug-2015 18:36:39.547 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+30-Aug-2015 18:36:39.547 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+30-Aug-2015 21:04:37.360 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+30-Aug-2015 21:04:37.360 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()

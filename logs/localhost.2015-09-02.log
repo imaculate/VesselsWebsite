@@ -1,0 +1,2176 @@
+02-Sep-2015 15:34:34.207 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+02-Sep-2015 15:34:34.207 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+02-Sep-2015 16:19:11.413 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+02-Sep-2015 16:19:11.413 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+02-Sep-2015 16:19:19.151 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+02-Sep-2015 16:19:19.151 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+02-Sep-2015 16:19:26.796 SEVERE [http-apr-8080-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 32 in the jsp file: /vessels.jsp
+Duplicate field vessels_jsp.con
+29: 
+30: 
+31:  <%! 
+32:  URLConnection con = new URL("http://maps.googleapiscom/maps/api/staticmap?center=London&size=900x500&key=AIzaSyC6SM82F6UiDMcKtUJvXcePTyJ6He_dVFs").openConnection();
+33: InputStream is = con.getInputStream();
+34: byte bytes[] = new byte[con.getContentLength()];
+35: is.read(bytes);
+
+
+An error occurred at line: 33 in the jsp file: /vessels.jsp
+InputStream cannot be resolved to a type
+30: 
+31:  <%! 
+32:  URLConnection con = new URL("http://maps.googleapiscom/maps/api/staticmap?center=London&size=900x500&key=AIzaSyC6SM82F6UiDMcKtUJvXcePTyJ6He_dVFs").openConnection();
+33: InputStream is = con.getInputStream();
+34: byte bytes[] = new byte[con.getContentLength()];
+35: is.read(bytes);
+36: is.close();
+
+
+An error occurred at line: 33 in the jsp file: /vessels.jsp
+Duplicate field vessels_jsp.is
+30: 
+31:  <%! 
+32:  URLConnection con = new URL("http://maps.googleapiscom/maps/api/staticmap?center=London&size=900x500&key=AIzaSyC6SM82F6UiDMcKtUJvXcePTyJ6He_dVFs").openConnection();
+33: InputStream is = con.getInputStream();
+34: byte bytes[] = new byte[con.getContentLength()];
+35: is.read(bytes);
+36: is.close();
+
+
+An error occurred at line: 34 in the jsp file: /vessels.jsp
+Duplicate field vessels_jsp.bytes
+31:  <%! 
+32:  URLConnection con = new URL("http://maps.googleapiscom/maps/api/staticmap?center=London&size=900x500&key=AIzaSyC6SM82F6UiDMcKtUJvXcePTyJ6He_dVFs").openConnection();
+33: InputStream is = con.getInputStream();
+34: byte bytes[] = new byte[con.getContentLength()];
+35: is.read(bytes);
+36: is.close();
+37: Toolkit tk = getToolkit();
+
+
+An error occurred at line: 35 in the jsp file: /vessels.jsp
+Syntax error on token(s), misplaced construct(s)
+32:  URLConnection con = new URL("http://maps.googleapiscom/maps/api/staticmap?center=London&size=900x500&key=AIzaSyC6SM82F6UiDMcKtUJvXcePTyJ6He_dVFs").openConnection();
+33: InputStream is = con.getInputStream();
+34: byte bytes[] = new byte[con.getContentLength()];
+35: is.read(bytes);
+36: is.close();
+37: Toolkit tk = getToolkit();
+38: map = tk.createImage(bytes);
+
+
+An error occurred at line: 35 in the jsp file: /vessels.jsp
+Syntax error, insert "... VariableDeclaratorId" to complete FormalParameterList
+32:  URLConnection con = new URL("http://maps.googleapiscom/maps/api/staticmap?center=London&size=900x500&key=AIzaSyC6SM82F6UiDMcKtUJvXcePTyJ6He_dVFs").openConnection();
+33: InputStream is = con.getInputStream();
+34: byte bytes[] = new byte[con.getContentLength()];
+35: is.read(bytes);
+36: is.close();
+37: Toolkit tk = getToolkit();
+38: map = tk.createImage(bytes);
+
+
+An error occurred at line: 36 in the jsp file: /vessels.jsp
+Syntax error on token "close", Identifier expected after this token
+33: InputStream is = con.getInputStream();
+34: byte bytes[] = new byte[con.getContentLength()];
+35: is.read(bytes);
+36: is.close();
+37: Toolkit tk = getToolkit();
+38: map = tk.createImage(bytes);
+39: tk.prepareImage(map, -1, -1, null);%>
+
+
+An error occurred at line: 37 in the jsp file: /vessels.jsp
+Toolkit cannot be resolved to a type
+34: byte bytes[] = new byte[con.getContentLength()];
+35: is.read(bytes);
+36: is.close();
+37: Toolkit tk = getToolkit();
+38: map = tk.createImage(bytes);
+39: tk.prepareImage(map, -1, -1, null);%>
+40: <%!
+
+
+An error occurred at line: 37 in the jsp file: /vessels.jsp
+Duplicate field vessels_jsp.tk
+34: byte bytes[] = new byte[con.getContentLength()];
+35: is.read(bytes);
+36: is.close();
+37: Toolkit tk = getToolkit();
+38: map = tk.createImage(bytes);
+39: tk.prepareImage(map, -1, -1, null);%>
+40: <%!
+
+
+An error occurred at line: 37 in the jsp file: /vessels.jsp
+The method getToolkit() is undefined for the type vessels_jsp
+34: byte bytes[] = new byte[con.getContentLength()];
+35: is.read(bytes);
+36: is.close();
+37: Toolkit tk = getToolkit();
+38: map = tk.createImage(bytes);
+39: tk.prepareImage(map, -1, -1, null);%>
+40: <%!
+
+
+An error occurred at line: 37 in the jsp file: /vessels.jsp
+Syntax error on token ";", { expected after this token
+34: byte bytes[] = new byte[con.getContentLength()];
+35: is.read(bytes);
+36: is.close();
+37: Toolkit tk = getToolkit();
+38: map = tk.createImage(bytes);
+39: tk.prepareImage(map, -1, -1, null);%>
+40: <%!
+
+
+An error occurred at line: 39 in the jsp file: /vessels.jsp
+Syntax error, insert "}" to complete Block
+36: is.close();
+37: Toolkit tk = getToolkit();
+38: map = tk.createImage(bytes);
+39: tk.prepareImage(map, -1, -1, null);%>
+40: <%!
+41:   String readCsv() {  
+42: String csvFileToRead = "vessels.csv";  
+
+
+An error occurred at line: 153 in the jsp file: /vessels.jsp
+Duplicate field vessels_jsp.con
+150:   </script>
+151: 
+152:   <%! 
+153:  URLConnection con = new URL("http://maps.googleapiscom/maps/api/staticmap?center=London&size=900x500&key=AIzaSyC6SM82F6UiDMcKtUJvXcePTyJ6He_dVFs").openConnection();
+154: InputStream is = con.getInputStream();
+155: byte bytes[] = new byte[con.getContentLength()];
+156: is.read(bytes);
+
+
+An error occurred at line: 154 in the jsp file: /vessels.jsp
+Duplicate field vessels_jsp.is
+151: 
+152:   <%! 
+153:  URLConnection con = new URL("http://maps.googleapiscom/maps/api/staticmap?center=London&size=900x500&key=AIzaSyC6SM82F6UiDMcKtUJvXcePTyJ6He_dVFs").openConnection();
+154: InputStream is = con.getInputStream();
+155: byte bytes[] = new byte[con.getContentLength()];
+156: is.read(bytes);
+157: is.close();
+
+
+An error occurred at line: 155 in the jsp file: /vessels.jsp
+Duplicate field vessels_jsp.bytes
+152:   <%! 
+153:  URLConnection con = new URL("http://maps.googleapiscom/maps/api/staticmap?center=London&size=900x500&key=AIzaSyC6SM82F6UiDMcKtUJvXcePTyJ6He_dVFs").openConnection();
+154: InputStream is = con.getInputStream();
+155: byte bytes[] = new byte[con.getContentLength()];
+156: is.read(bytes);
+157: is.close();
+158: Toolkit tk = getToolkit();
+
+
+An error occurred at line: 156 in the jsp file: /vessels.jsp
+Syntax error on token(s), misplaced construct(s)
+153:  URLConnection con = new URL("http://maps.googleapiscom/maps/api/staticmap?center=London&size=900x500&key=AIzaSyC6SM82F6UiDMcKtUJvXcePTyJ6He_dVFs").openConnection();
+154: InputStream is = con.getInputStream();
+155: byte bytes[] = new byte[con.getContentLength()];
+156: is.read(bytes);
+157: is.close();
+158: Toolkit tk = getToolkit();
+159: map = tk.createImage(bytes);
+
+
+An error occurred at line: 156 in the jsp file: /vessels.jsp
+Syntax error, insert "... VariableDeclaratorId" to complete FormalParameterList
+153:  URLConnection con = new URL("http://maps.googleapiscom/maps/api/staticmap?center=London&size=900x500&key=AIzaSyC6SM82F6UiDMcKtUJvXcePTyJ6He_dVFs").openConnection();
+154: InputStream is = con.getInputStream();
+155: byte bytes[] = new byte[con.getContentLength()];
+156: is.read(bytes);
+157: is.close();
+158: Toolkit tk = getToolkit();
+159: map = tk.createImage(bytes);
+
+
+An error occurred at line: 157 in the jsp file: /vessels.jsp
+Syntax error on token "close", Identifier expected after this token
+154: InputStream is = con.getInputStream();
+155: byte bytes[] = new byte[con.getContentLength()];
+156: is.read(bytes);
+157: is.close();
+158: Toolkit tk = getToolkit();
+159: map = tk.createImage(bytes);
+160: tk.prepareImage(map, -1, -1, null);%>
+
+
+An error occurred at line: 158 in the jsp file: /vessels.jsp
+Duplicate field vessels_jsp.tk
+155: byte bytes[] = new byte[con.getContentLength()];
+156: is.read(bytes);
+157: is.close();
+158: Toolkit tk = getToolkit();
+159: map = tk.createImage(bytes);
+160: tk.prepareImage(map, -1, -1, null);%>
+161: 
+
+
+An error occurred at line: 158 in the jsp file: /vessels.jsp
+The method getToolkit() is undefined for the type vessels_jsp
+155: byte bytes[] = new byte[con.getContentLength()];
+156: is.read(bytes);
+157: is.close();
+158: Toolkit tk = getToolkit();
+159: map = tk.createImage(bytes);
+160: tk.prepareImage(map, -1, -1, null);%>
+161: 
+
+
+An error occurred at line: 158 in the jsp file: /vessels.jsp
+Syntax error on token ";", { expected after this token
+155: byte bytes[] = new byte[con.getContentLength()];
+156: is.read(bytes);
+157: is.close();
+158: Toolkit tk = getToolkit();
+159: map = tk.createImage(bytes);
+160: tk.prepareImage(map, -1, -1, null);%>
+161: 
+
+
+An error occurred at line: [108] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeader
+
+An error occurred at line: [129] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+
+An error occurred at line: [129] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+
+An error occurred at line: [129] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error on token "{", ; expected
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 32 in the jsp file: /vessels.jsp
+Duplicate field vessels_jsp.con
+29: 
+30: 
+31:  <%! 
+32:  URLConnection con = new URL("http://maps.googleapiscom/maps/api/staticmap?center=London&size=900x500&key=AIzaSyC6SM82F6UiDMcKtUJvXcePTyJ6He_dVFs").openConnection();
+33: InputStream is = con.getInputStream();
+34: byte bytes[] = new byte[con.getContentLength()];
+35: is.read(bytes);
+
+
+An error occurred at line: 33 in the jsp file: /vessels.jsp
+InputStream cannot be resolved to a type
+30: 
+31:  <%! 
+32:  URLConnection con = new URL("http://maps.googleapiscom/maps/api/staticmap?center=London&size=900x500&key=AIzaSyC6SM82F6UiDMcKtUJvXcePTyJ6He_dVFs").openConnection();
+33: InputStream is = con.getInputStream();
+34: byte bytes[] = new byte[con.getContentLength()];
+35: is.read(bytes);
+36: is.close();
+
+
+An error occurred at line: 33 in the jsp file: /vessels.jsp
+Duplicate field vessels_jsp.is
+30: 
+31:  <%! 
+32:  URLConnection con = new URL("http://maps.googleapiscom/maps/api/staticmap?center=London&size=900x500&key=AIzaSyC6SM82F6UiDMcKtUJvXcePTyJ6He_dVFs").openConnection();
+33: InputStream is = con.getInputStream();
+34: byte bytes[] = new byte[con.getContentLength()];
+35: is.read(bytes);
+36: is.close();
+
+
+An error occurred at line: 34 in the jsp file: /vessels.jsp
+Duplicate field vessels_jsp.bytes
+31:  <%! 
+32:  URLConnection con = new URL("http://maps.googleapiscom/maps/api/staticmap?center=London&size=900x500&key=AIzaSyC6SM82F6UiDMcKtUJvXcePTyJ6He_dVFs").openConnection();
+33: InputStream is = con.getInputStream();
+34: byte bytes[] = new byte[con.getContentLength()];
+35: is.read(bytes);
+36: is.close();
+37: Toolkit tk = getToolkit();
+
+
+An error occurred at line: 35 in the jsp file: /vessels.jsp
+Syntax error on token(s), misplaced construct(s)
+32:  URLConnection con = new URL("http://maps.googleapiscom/maps/api/staticmap?center=London&size=900x500&key=AIzaSyC6SM82F6UiDMcKtUJvXcePTyJ6He_dVFs").openConnection();
+33: InputStream is = con.getInputStream();
+34: byte bytes[] = new byte[con.getContentLength()];
+35: is.read(bytes);
+36: is.close();
+37: Toolkit tk = getToolkit();
+38: map = tk.createImage(bytes);
+
+
+An error occurred at line: 35 in the jsp file: /vessels.jsp
+Syntax error, insert "... VariableDeclaratorId" to complete FormalParameterList
+32:  URLConnection con = new URL("http://maps.googleapiscom/maps/api/staticmap?center=London&size=900x500&key=AIzaSyC6SM82F6UiDMcKtUJvXcePTyJ6He_dVFs").openConnection();
+33: InputStream is = con.getInputStream();
+34: byte bytes[] = new byte[con.getContentLength()];
+35: is.read(bytes);
+36: is.close();
+37: Toolkit tk = getToolkit();
+38: map = tk.createImage(bytes);
+
+
+An error occurred at line: 36 in the jsp file: /vessels.jsp
+Syntax error on token "close", Identifier expected after this token
+33: InputStream is = con.getInputStream();
+34: byte bytes[] = new byte[con.getContentLength()];
+35: is.read(bytes);
+36: is.close();
+37: Toolkit tk = getToolkit();
+38: map = tk.createImage(bytes);
+39: tk.prepareImage(map, -1, -1, null);%>
+
+
+An error occurred at line: 37 in the jsp file: /vessels.jsp
+Toolkit cannot be resolved to a type
+34: byte bytes[] = new byte[con.getContentLength()];
+35: is.read(bytes);
+36: is.close();
+37: Toolkit tk = getToolkit();
+38: map = tk.createImage(bytes);
+39: tk.prepareImage(map, -1, -1, null);%>
+40: <%!
+
+
+An error occurred at line: 37 in the jsp file: /vessels.jsp
+Duplicate field vessels_jsp.tk
+34: byte bytes[] = new byte[con.getContentLength()];
+35: is.read(bytes);
+36: is.close();
+37: Toolkit tk = getToolkit();
+38: map = tk.createImage(bytes);
+39: tk.prepareImage(map, -1, -1, null);%>
+40: <%!
+
+
+An error occurred at line: 37 in the jsp file: /vessels.jsp
+The method getToolkit() is undefined for the type vessels_jsp
+34: byte bytes[] = new byte[con.getContentLength()];
+35: is.read(bytes);
+36: is.close();
+37: Toolkit tk = getToolkit();
+38: map = tk.createImage(bytes);
+39: tk.prepareImage(map, -1, -1, null);%>
+40: <%!
+
+
+An error occurred at line: 37 in the jsp file: /vessels.jsp
+Syntax error on token ";", { expected after this token
+34: byte bytes[] = new byte[con.getContentLength()];
+35: is.read(bytes);
+36: is.close();
+37: Toolkit tk = getToolkit();
+38: map = tk.createImage(bytes);
+39: tk.prepareImage(map, -1, -1, null);%>
+40: <%!
+
+
+An error occurred at line: 39 in the jsp file: /vessels.jsp
+Syntax error, insert "}" to complete Block
+36: is.close();
+37: Toolkit tk = getToolkit();
+38: map = tk.createImage(bytes);
+39: tk.prepareImage(map, -1, -1, null);%>
+40: <%!
+41:   String readCsv() {  
+42: String csvFileToRead = "vessels.csv";  
+
+
+An error occurred at line: 153 in the jsp file: /vessels.jsp
+Duplicate field vessels_jsp.con
+150:   </script>
+151: 
+152:   <%! 
+153:  URLConnection con = new URL("http://maps.googleapiscom/maps/api/staticmap?center=London&size=900x500&key=AIzaSyC6SM82F6UiDMcKtUJvXcePTyJ6He_dVFs").openConnection();
+154: InputStream is = con.getInputStream();
+155: byte bytes[] = new byte[con.getContentLength()];
+156: is.read(bytes);
+
+
+An error occurred at line: 154 in the jsp file: /vessels.jsp
+Duplicate field vessels_jsp.is
+151: 
+152:   <%! 
+153:  URLConnection con = new URL("http://maps.googleapiscom/maps/api/staticmap?center=London&size=900x500&key=AIzaSyC6SM82F6UiDMcKtUJvXcePTyJ6He_dVFs").openConnection();
+154: InputStream is = con.getInputStream();
+155: byte bytes[] = new byte[con.getContentLength()];
+156: is.read(bytes);
+157: is.close();
+
+
+An error occurred at line: 155 in the jsp file: /vessels.jsp
+Duplicate field vessels_jsp.bytes
+152:   <%! 
+153:  URLConnection con = new URL("http://maps.googleapiscom/maps/api/staticmap?center=London&size=900x500&key=AIzaSyC6SM82F6UiDMcKtUJvXcePTyJ6He_dVFs").openConnection();
+154: InputStream is = con.getInputStream();
+155: byte bytes[] = new byte[con.getContentLength()];
+156: is.read(bytes);
+157: is.close();
+158: Toolkit tk = getToolkit();
+
+
+An error occurred at line: 156 in the jsp file: /vessels.jsp
+Syntax error on token(s), misplaced construct(s)
+153:  URLConnection con = new URL("http://maps.googleapiscom/maps/api/staticmap?center=London&size=900x500&key=AIzaSyC6SM82F6UiDMcKtUJvXcePTyJ6He_dVFs").openConnection();
+154: InputStream is = con.getInputStream();
+155: byte bytes[] = new byte[con.getContentLength()];
+156: is.read(bytes);
+157: is.close();
+158: Toolkit tk = getToolkit();
+159: map = tk.createImage(bytes);
+
+
+An error occurred at line: 156 in the jsp file: /vessels.jsp
+Syntax error, insert "... VariableDeclaratorId" to complete FormalParameterList
+153:  URLConnection con = new URL("http://maps.googleapiscom/maps/api/staticmap?center=London&size=900x500&key=AIzaSyC6SM82F6UiDMcKtUJvXcePTyJ6He_dVFs").openConnection();
+154: InputStream is = con.getInputStream();
+155: byte bytes[] = new byte[con.getContentLength()];
+156: is.read(bytes);
+157: is.close();
+158: Toolkit tk = getToolkit();
+159: map = tk.createImage(bytes);
+
+
+An error occurred at line: 157 in the jsp file: /vessels.jsp
+Syntax error on token "close", Identifier expected after this token
+154: InputStream is = con.getInputStream();
+155: byte bytes[] = new byte[con.getContentLength()];
+156: is.read(bytes);
+157: is.close();
+158: Toolkit tk = getToolkit();
+159: map = tk.createImage(bytes);
+160: tk.prepareImage(map, -1, -1, null);%>
+
+
+An error occurred at line: 158 in the jsp file: /vessels.jsp
+Duplicate field vessels_jsp.tk
+155: byte bytes[] = new byte[con.getContentLength()];
+156: is.read(bytes);
+157: is.close();
+158: Toolkit tk = getToolkit();
+159: map = tk.createImage(bytes);
+160: tk.prepareImage(map, -1, -1, null);%>
+161: 
+
+
+An error occurred at line: 158 in the jsp file: /vessels.jsp
+The method getToolkit() is undefined for the type vessels_jsp
+155: byte bytes[] = new byte[con.getContentLength()];
+156: is.read(bytes);
+157: is.close();
+158: Toolkit tk = getToolkit();
+159: map = tk.createImage(bytes);
+160: tk.prepareImage(map, -1, -1, null);%>
+161: 
+
+
+An error occurred at line: 158 in the jsp file: /vessels.jsp
+Syntax error on token ";", { expected after this token
+155: byte bytes[] = new byte[con.getContentLength()];
+156: is.read(bytes);
+157: is.close();
+158: Toolkit tk = getToolkit();
+159: map = tk.createImage(bytes);
+160: tk.prepareImage(map, -1, -1, null);%>
+161: 
+
+
+An error occurred at line: [108] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeader
+
+An error occurred at line: [129] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+
+An error occurred at line: [129] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+
+An error occurred at line: [129] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error on token "{", ; expected
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:198)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:450)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:585)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:363)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1091)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:673)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2503)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2492)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:722)
+
+02-Sep-2015 16:20:06.490 SEVERE [http-apr-8080-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 145 in the jsp file: /vessels.jsp
+InputStream cannot be resolved to a type
+142: 
+143:   <%! 
+144:  URLConnection con = new URL("http://maps.googleapiscom/maps/api/staticmap?center=London&size=900x500&key=AIzaSyC6SM82F6UiDMcKtUJvXcePTyJ6He_dVFs").openConnection();
+145: InputStream is = con.getInputStream();
+146: byte bytes[] = new byte[con.getContentLength()];
+147: is.read(bytes);
+148: is.close();
+
+
+An error occurred at line: 147 in the jsp file: /vessels.jsp
+Syntax error on token(s), misplaced construct(s)
+144:  URLConnection con = new URL("http://maps.googleapiscom/maps/api/staticmap?center=London&size=900x500&key=AIzaSyC6SM82F6UiDMcKtUJvXcePTyJ6He_dVFs").openConnection();
+145: InputStream is = con.getInputStream();
+146: byte bytes[] = new byte[con.getContentLength()];
+147: is.read(bytes);
+148: is.close();
+149: Toolkit tk = getToolkit();
+150: map = tk.createImage(bytes);
+
+
+An error occurred at line: 147 in the jsp file: /vessels.jsp
+Syntax error, insert "... VariableDeclaratorId" to complete FormalParameterList
+144:  URLConnection con = new URL("http://maps.googleapiscom/maps/api/staticmap?center=London&size=900x500&key=AIzaSyC6SM82F6UiDMcKtUJvXcePTyJ6He_dVFs").openConnection();
+145: InputStream is = con.getInputStream();
+146: byte bytes[] = new byte[con.getContentLength()];
+147: is.read(bytes);
+148: is.close();
+149: Toolkit tk = getToolkit();
+150: map = tk.createImage(bytes);
+
+
+An error occurred at line: 148 in the jsp file: /vessels.jsp
+Syntax error on token "close", Identifier expected after this token
+145: InputStream is = con.getInputStream();
+146: byte bytes[] = new byte[con.getContentLength()];
+147: is.read(bytes);
+148: is.close();
+149: Toolkit tk = getToolkit();
+150: map = tk.createImage(bytes);
+151: tk.prepareImage(map, -1, -1, null);%>
+
+
+An error occurred at line: 149 in the jsp file: /vessels.jsp
+Toolkit cannot be resolved to a type
+146: byte bytes[] = new byte[con.getContentLength()];
+147: is.read(bytes);
+148: is.close();
+149: Toolkit tk = getToolkit();
+150: map = tk.createImage(bytes);
+151: tk.prepareImage(map, -1, -1, null);%>
+152: 
+
+
+An error occurred at line: 149 in the jsp file: /vessels.jsp
+The method getToolkit() is undefined for the type vessels_jsp
+146: byte bytes[] = new byte[con.getContentLength()];
+147: is.read(bytes);
+148: is.close();
+149: Toolkit tk = getToolkit();
+150: map = tk.createImage(bytes);
+151: tk.prepareImage(map, -1, -1, null);%>
+152: 
+
+
+An error occurred at line: 149 in the jsp file: /vessels.jsp
+Syntax error on token ";", { expected after this token
+146: byte bytes[] = new byte[con.getContentLength()];
+147: is.read(bytes);
+148: is.close();
+149: Toolkit tk = getToolkit();
+150: map = tk.createImage(bytes);
+151: tk.prepareImage(map, -1, -1, null);%>
+152: 
+
+
+An error occurred at line: [99] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeader
+
+An error occurred at line: [120] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+
+An error occurred at line: [120] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+
+An error occurred at line: [120] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error on token "{", ; expected
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 145 in the jsp file: /vessels.jsp
+InputStream cannot be resolved to a type
+142: 
+143:   <%! 
+144:  URLConnection con = new URL("http://maps.googleapiscom/maps/api/staticmap?center=London&size=900x500&key=AIzaSyC6SM82F6UiDMcKtUJvXcePTyJ6He_dVFs").openConnection();
+145: InputStream is = con.getInputStream();
+146: byte bytes[] = new byte[con.getContentLength()];
+147: is.read(bytes);
+148: is.close();
+
+
+An error occurred at line: 147 in the jsp file: /vessels.jsp
+Syntax error on token(s), misplaced construct(s)
+144:  URLConnection con = new URL("http://maps.googleapiscom/maps/api/staticmap?center=London&size=900x500&key=AIzaSyC6SM82F6UiDMcKtUJvXcePTyJ6He_dVFs").openConnection();
+145: InputStream is = con.getInputStream();
+146: byte bytes[] = new byte[con.getContentLength()];
+147: is.read(bytes);
+148: is.close();
+149: Toolkit tk = getToolkit();
+150: map = tk.createImage(bytes);
+
+
+An error occurred at line: 147 in the jsp file: /vessels.jsp
+Syntax error, insert "... VariableDeclaratorId" to complete FormalParameterList
+144:  URLConnection con = new URL("http://maps.googleapiscom/maps/api/staticmap?center=London&size=900x500&key=AIzaSyC6SM82F6UiDMcKtUJvXcePTyJ6He_dVFs").openConnection();
+145: InputStream is = con.getInputStream();
+146: byte bytes[] = new byte[con.getContentLength()];
+147: is.read(bytes);
+148: is.close();
+149: Toolkit tk = getToolkit();
+150: map = tk.createImage(bytes);
+
+
+An error occurred at line: 148 in the jsp file: /vessels.jsp
+Syntax error on token "close", Identifier expected after this token
+145: InputStream is = con.getInputStream();
+146: byte bytes[] = new byte[con.getContentLength()];
+147: is.read(bytes);
+148: is.close();
+149: Toolkit tk = getToolkit();
+150: map = tk.createImage(bytes);
+151: tk.prepareImage(map, -1, -1, null);%>
+
+
+An error occurred at line: 149 in the jsp file: /vessels.jsp
+Toolkit cannot be resolved to a type
+146: byte bytes[] = new byte[con.getContentLength()];
+147: is.read(bytes);
+148: is.close();
+149: Toolkit tk = getToolkit();
+150: map = tk.createImage(bytes);
+151: tk.prepareImage(map, -1, -1, null);%>
+152: 
+
+
+An error occurred at line: 149 in the jsp file: /vessels.jsp
+The method getToolkit() is undefined for the type vessels_jsp
+146: byte bytes[] = new byte[con.getContentLength()];
+147: is.read(bytes);
+148: is.close();
+149: Toolkit tk = getToolkit();
+150: map = tk.createImage(bytes);
+151: tk.prepareImage(map, -1, -1, null);%>
+152: 
+
+
+An error occurred at line: 149 in the jsp file: /vessels.jsp
+Syntax error on token ";", { expected after this token
+146: byte bytes[] = new byte[con.getContentLength()];
+147: is.read(bytes);
+148: is.close();
+149: Toolkit tk = getToolkit();
+150: map = tk.createImage(bytes);
+151: tk.prepareImage(map, -1, -1, null);%>
+152: 
+
+
+An error occurred at line: [99] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeader
+
+An error occurred at line: [120] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+
+An error occurred at line: [120] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+
+An error occurred at line: [120] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error on token "{", ; expected
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:198)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:450)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:585)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:363)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1091)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:673)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2503)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2492)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:722)
+
+02-Sep-2015 16:21:07.868 SEVERE [http-apr-8080-exec-6] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 148 in the jsp file: /vessels.jsp
+Syntax error on token(s), misplaced construct(s)
+145:  URLConnection con = new URL("http://maps.googleapiscom/maps/api/staticmap?center=London&size=900x500&key=AIzaSyC6SM82F6UiDMcKtUJvXcePTyJ6He_dVFs").openConnection();
+146: InputStream is = con.getInputStream();
+147: byte bytes[] = new byte[con.getContentLength()];
+148: is.read(bytes);
+149: is.close();
+150: Toolkit tk = getToolkit();
+151: map = tk.createImage(bytes);
+
+
+An error occurred at line: 148 in the jsp file: /vessels.jsp
+Syntax error, insert "... VariableDeclaratorId" to complete FormalParameterList
+145:  URLConnection con = new URL("http://maps.googleapiscom/maps/api/staticmap?center=London&size=900x500&key=AIzaSyC6SM82F6UiDMcKtUJvXcePTyJ6He_dVFs").openConnection();
+146: InputStream is = con.getInputStream();
+147: byte bytes[] = new byte[con.getContentLength()];
+148: is.read(bytes);
+149: is.close();
+150: Toolkit tk = getToolkit();
+151: map = tk.createImage(bytes);
+
+
+An error occurred at line: 149 in the jsp file: /vessels.jsp
+Syntax error on token "close", Identifier expected after this token
+146: InputStream is = con.getInputStream();
+147: byte bytes[] = new byte[con.getContentLength()];
+148: is.read(bytes);
+149: is.close();
+150: Toolkit tk = getToolkit();
+151: map = tk.createImage(bytes);
+152: tk.prepareImage(map, -1, -1, null);%>
+
+
+An error occurred at line: 150 in the jsp file: /vessels.jsp
+Toolkit cannot be resolved to a type
+147: byte bytes[] = new byte[con.getContentLength()];
+148: is.read(bytes);
+149: is.close();
+150: Toolkit tk = getToolkit();
+151: map = tk.createImage(bytes);
+152: tk.prepareImage(map, -1, -1, null);%>
+153: 
+
+
+An error occurred at line: 150 in the jsp file: /vessels.jsp
+The method getToolkit() is undefined for the type vessels_jsp
+147: byte bytes[] = new byte[con.getContentLength()];
+148: is.read(bytes);
+149: is.close();
+150: Toolkit tk = getToolkit();
+151: map = tk.createImage(bytes);
+152: tk.prepareImage(map, -1, -1, null);%>
+153: 
+
+
+An error occurred at line: 150 in the jsp file: /vessels.jsp
+Syntax error on token ";", { expected after this token
+147: byte bytes[] = new byte[con.getContentLength()];
+148: is.read(bytes);
+149: is.close();
+150: Toolkit tk = getToolkit();
+151: map = tk.createImage(bytes);
+152: tk.prepareImage(map, -1, -1, null);%>
+153: 
+
+
+An error occurred at line: [100] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeader
+
+An error occurred at line: [122] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+
+An error occurred at line: [122] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+
+An error occurred at line: [122] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error on token "{", ; expected
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 148 in the jsp file: /vessels.jsp
+Syntax error on token(s), misplaced construct(s)
+145:  URLConnection con = new URL("http://maps.googleapiscom/maps/api/staticmap?center=London&size=900x500&key=AIzaSyC6SM82F6UiDMcKtUJvXcePTyJ6He_dVFs").openConnection();
+146: InputStream is = con.getInputStream();
+147: byte bytes[] = new byte[con.getContentLength()];
+148: is.read(bytes);
+149: is.close();
+150: Toolkit tk = getToolkit();
+151: map = tk.createImage(bytes);
+
+
+An error occurred at line: 148 in the jsp file: /vessels.jsp
+Syntax error, insert "... VariableDeclaratorId" to complete FormalParameterList
+145:  URLConnection con = new URL("http://maps.googleapiscom/maps/api/staticmap?center=London&size=900x500&key=AIzaSyC6SM82F6UiDMcKtUJvXcePTyJ6He_dVFs").openConnection();
+146: InputStream is = con.getInputStream();
+147: byte bytes[] = new byte[con.getContentLength()];
+148: is.read(bytes);
+149: is.close();
+150: Toolkit tk = getToolkit();
+151: map = tk.createImage(bytes);
+
+
+An error occurred at line: 149 in the jsp file: /vessels.jsp
+Syntax error on token "close", Identifier expected after this token
+146: InputStream is = con.getInputStream();
+147: byte bytes[] = new byte[con.getContentLength()];
+148: is.read(bytes);
+149: is.close();
+150: Toolkit tk = getToolkit();
+151: map = tk.createImage(bytes);
+152: tk.prepareImage(map, -1, -1, null);%>
+
+
+An error occurred at line: 150 in the jsp file: /vessels.jsp
+Toolkit cannot be resolved to a type
+147: byte bytes[] = new byte[con.getContentLength()];
+148: is.read(bytes);
+149: is.close();
+150: Toolkit tk = getToolkit();
+151: map = tk.createImage(bytes);
+152: tk.prepareImage(map, -1, -1, null);%>
+153: 
+
+
+An error occurred at line: 150 in the jsp file: /vessels.jsp
+The method getToolkit() is undefined for the type vessels_jsp
+147: byte bytes[] = new byte[con.getContentLength()];
+148: is.read(bytes);
+149: is.close();
+150: Toolkit tk = getToolkit();
+151: map = tk.createImage(bytes);
+152: tk.prepareImage(map, -1, -1, null);%>
+153: 
+
+
+An error occurred at line: 150 in the jsp file: /vessels.jsp
+Syntax error on token ";", { expected after this token
+147: byte bytes[] = new byte[con.getContentLength()];
+148: is.read(bytes);
+149: is.close();
+150: Toolkit tk = getToolkit();
+151: map = tk.createImage(bytes);
+152: tk.prepareImage(map, -1, -1, null);%>
+153: 
+
+
+An error occurred at line: [100] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeader
+
+An error occurred at line: [122] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+
+An error occurred at line: [122] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+
+An error occurred at line: [122] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error on token "{", ; expected
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:198)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:450)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:585)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:363)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1091)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:673)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2503)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2492)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:722)
+
+02-Sep-2015 16:24:57.008 SEVERE [http-apr-8080-exec-8] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 148 in the jsp file: /vessels.jsp
+Syntax error on token(s), misplaced construct(s)
+145:  URLConnection con = new URL("http://maps.googleapiscom/maps/api/staticmap?center=London&size=900x500&zoom=1&key=AIzaSyC6SM82F6UiDMcKtUJvXcePTyJ6He_dVFs").openConnection();
+146: InputStream is = con.getInputStream();
+147: byte bytes[] = new byte[con.getContentLength()];
+148: is.read(bytes);
+149: is.close();
+150: Toolkit tk = getToolkit();
+151: map = tk.createImage(bytes);
+
+
+An error occurred at line: 148 in the jsp file: /vessels.jsp
+Syntax error, insert "... VariableDeclaratorId" to complete FormalParameterList
+145:  URLConnection con = new URL("http://maps.googleapiscom/maps/api/staticmap?center=London&size=900x500&zoom=1&key=AIzaSyC6SM82F6UiDMcKtUJvXcePTyJ6He_dVFs").openConnection();
+146: InputStream is = con.getInputStream();
+147: byte bytes[] = new byte[con.getContentLength()];
+148: is.read(bytes);
+149: is.close();
+150: Toolkit tk = getToolkit();
+151: map = tk.createImage(bytes);
+
+
+An error occurred at line: 149 in the jsp file: /vessels.jsp
+Syntax error on token "close", Identifier expected after this token
+146: InputStream is = con.getInputStream();
+147: byte bytes[] = new byte[con.getContentLength()];
+148: is.read(bytes);
+149: is.close();
+150: Toolkit tk = getToolkit();
+151: map = tk.createImage(bytes);
+152: tk.prepareImage(map, -1, -1, null);%>
+
+
+An error occurred at line: 150 in the jsp file: /vessels.jsp
+Toolkit cannot be resolved to a type
+147: byte bytes[] = new byte[con.getContentLength()];
+148: is.read(bytes);
+149: is.close();
+150: Toolkit tk = getToolkit();
+151: map = tk.createImage(bytes);
+152: tk.prepareImage(map, -1, -1, null);%>
+153: 
+
+
+An error occurred at line: 150 in the jsp file: /vessels.jsp
+The method getToolkit() is undefined for the type vessels_jsp
+147: byte bytes[] = new byte[con.getContentLength()];
+148: is.read(bytes);
+149: is.close();
+150: Toolkit tk = getToolkit();
+151: map = tk.createImage(bytes);
+152: tk.prepareImage(map, -1, -1, null);%>
+153: 
+
+
+An error occurred at line: 150 in the jsp file: /vessels.jsp
+Syntax error on token ";", { expected after this token
+147: byte bytes[] = new byte[con.getContentLength()];
+148: is.read(bytes);
+149: is.close();
+150: Toolkit tk = getToolkit();
+151: map = tk.createImage(bytes);
+152: tk.prepareImage(map, -1, -1, null);%>
+153: 
+
+
+An error occurred at line: [100] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeader
+
+An error occurred at line: [122] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+
+An error occurred at line: [122] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+
+An error occurred at line: [122] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error on token "{", ; expected
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 148 in the jsp file: /vessels.jsp
+Syntax error on token(s), misplaced construct(s)
+145:  URLConnection con = new URL("http://maps.googleapiscom/maps/api/staticmap?center=London&size=900x500&zoom=1&key=AIzaSyC6SM82F6UiDMcKtUJvXcePTyJ6He_dVFs").openConnection();
+146: InputStream is = con.getInputStream();
+147: byte bytes[] = new byte[con.getContentLength()];
+148: is.read(bytes);
+149: is.close();
+150: Toolkit tk = getToolkit();
+151: map = tk.createImage(bytes);
+
+
+An error occurred at line: 148 in the jsp file: /vessels.jsp
+Syntax error, insert "... VariableDeclaratorId" to complete FormalParameterList
+145:  URLConnection con = new URL("http://maps.googleapiscom/maps/api/staticmap?center=London&size=900x500&zoom=1&key=AIzaSyC6SM82F6UiDMcKtUJvXcePTyJ6He_dVFs").openConnection();
+146: InputStream is = con.getInputStream();
+147: byte bytes[] = new byte[con.getContentLength()];
+148: is.read(bytes);
+149: is.close();
+150: Toolkit tk = getToolkit();
+151: map = tk.createImage(bytes);
+
+
+An error occurred at line: 149 in the jsp file: /vessels.jsp
+Syntax error on token "close", Identifier expected after this token
+146: InputStream is = con.getInputStream();
+147: byte bytes[] = new byte[con.getContentLength()];
+148: is.read(bytes);
+149: is.close();
+150: Toolkit tk = getToolkit();
+151: map = tk.createImage(bytes);
+152: tk.prepareImage(map, -1, -1, null);%>
+
+
+An error occurred at line: 150 in the jsp file: /vessels.jsp
+Toolkit cannot be resolved to a type
+147: byte bytes[] = new byte[con.getContentLength()];
+148: is.read(bytes);
+149: is.close();
+150: Toolkit tk = getToolkit();
+151: map = tk.createImage(bytes);
+152: tk.prepareImage(map, -1, -1, null);%>
+153: 
+
+
+An error occurred at line: 150 in the jsp file: /vessels.jsp
+The method getToolkit() is undefined for the type vessels_jsp
+147: byte bytes[] = new byte[con.getContentLength()];
+148: is.read(bytes);
+149: is.close();
+150: Toolkit tk = getToolkit();
+151: map = tk.createImage(bytes);
+152: tk.prepareImage(map, -1, -1, null);%>
+153: 
+
+
+An error occurred at line: 150 in the jsp file: /vessels.jsp
+Syntax error on token ";", { expected after this token
+147: byte bytes[] = new byte[con.getContentLength()];
+148: is.read(bytes);
+149: is.close();
+150: Toolkit tk = getToolkit();
+151: map = tk.createImage(bytes);
+152: tk.prepareImage(map, -1, -1, null);%>
+153: 
+
+
+An error occurred at line: [100] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeader
+
+An error occurred at line: [122] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+
+An error occurred at line: [122] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+
+An error occurred at line: [122] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error on token "{", ; expected
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:198)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:450)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:585)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:363)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1091)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:673)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2503)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2492)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:722)
+
+02-Sep-2015 17:21:20.396 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+02-Sep-2015 17:21:20.397 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+02-Sep-2015 17:21:27.587 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+02-Sep-2015 17:21:27.587 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+02-Sep-2015 17:21:37.993 SEVERE [http-apr-8080-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 38 in the jsp file: /vessels.jsp
+ArrayList cannot be resolved to a type
+35:   BufferedReader br = null;  
+36:   String line = "";  
+37:   String splitBy = "\\|"; 
+38:  ArrayList<String[]> outs = new  ArrayList<String[]>();
+39:   
+40:   try {  
+41:   
+
+
+An error occurred at line: 38 in the jsp file: /vessels.jsp
+ArrayList cannot be resolved to a type
+35:   BufferedReader br = null;  
+36:   String line = "";  
+37:   String splitBy = "\\|"; 
+38:  ArrayList<String[]> outs = new  ArrayList<String[]>();
+39:   
+40:   try {  
+41:   
+
+
+An error occurred at line: 96 in the jsp file: /vessels.jsp
+ArrayList cannot be resolved to a type
+93:        
+94:             <th colspan="3"> Actions</th>
+95:          </tr>
+96:   <%  ArrayList<String[]> data = readCSV();
+97:     int data_length= data.size();
+98:     for(int i = 0 ; i< data_length; i++ ) { %>
+99:         <tr class = "datarow">
+
+
+An error occurred at line: 96 in the jsp file: /vessels.jsp
+The method readCSV() is undefined for the type vessels_jsp
+93:        
+94:             <th colspan="3"> Actions</th>
+95:          </tr>
+96:   <%  ArrayList<String[]> data = readCSV();
+97:     int data_length= data.size();
+98:     for(int i = 0 ; i< data_length; i++ ) { %>
+99:         <tr class = "datarow">
+
+
+An error occurred at line: 100 in the jsp file: /vessels.jsp
+Syntax error on token ";", delete this token
+97:     int data_length= data.size();
+98:     for(int i = 0 ; i< data_length; i++ ) { %>
+99:         <tr class = "datarow">
+100:             <td > <%= data.get(i)[0];%></td>
+101:             <td> <%= data.get(i)[1]%> </td>
+102:             <td> <%= data.get(i)[2]%></td>
+103:             <td> <%= data.get(i)[3]%></td>
+
+
+An error occurred at line: 106 in the jsp file: /vessels.jsp
+Syntax error on token ";", delete this token
+103:             <td> <%= data.get(i)[3]%></td>
+104:             <td >
+105:                 <form method = "get" action = "EditProject.html" >
+106:                     <input type = "hidden" name = "lat" value=<%= data.get(i)[5];%>>
+107:                     <input type = "hidden" name = "long" value=<%= data.get(i)[4];%>>
+108:                   </form>
+109:             </td>
+
+
+An error occurred at line: 107 in the jsp file: /vessels.jsp
+Syntax error on token ";", delete this token
+104:             <td >
+105:                 <form method = "get" action = "EditProject.html" >
+106:                     <input type = "hidden" name = "lat" value=<%= data.get(i)[5];%>>
+107:                     <input type = "hidden" name = "long" value=<%= data.get(i)[4];%>>
+108:                   </form>
+109:             </td>
+110:           </tr>
+
+
+An error occurred at line: [290] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error, insert "}" to complete Block
+
+An error occurred at line: [307] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [308] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 38 in the jsp file: /vessels.jsp
+ArrayList cannot be resolved to a type
+35:   BufferedReader br = null;  
+36:   String line = "";  
+37:   String splitBy = "\\|"; 
+38:  ArrayList<String[]> outs = new  ArrayList<String[]>();
+39:   
+40:   try {  
+41:   
+
+
+An error occurred at line: 38 in the jsp file: /vessels.jsp
+ArrayList cannot be resolved to a type
+35:   BufferedReader br = null;  
+36:   String line = "";  
+37:   String splitBy = "\\|"; 
+38:  ArrayList<String[]> outs = new  ArrayList<String[]>();
+39:   
+40:   try {  
+41:   
+
+
+An error occurred at line: 96 in the jsp file: /vessels.jsp
+ArrayList cannot be resolved to a type
+93:        
+94:             <th colspan="3"> Actions</th>
+95:          </tr>
+96:   <%  ArrayList<String[]> data = readCSV();
+97:     int data_length= data.size();
+98:     for(int i = 0 ; i< data_length; i++ ) { %>
+99:         <tr class = "datarow">
+
+
+An error occurred at line: 96 in the jsp file: /vessels.jsp
+The method readCSV() is undefined for the type vessels_jsp
+93:        
+94:             <th colspan="3"> Actions</th>
+95:          </tr>
+96:   <%  ArrayList<String[]> data = readCSV();
+97:     int data_length= data.size();
+98:     for(int i = 0 ; i< data_length; i++ ) { %>
+99:         <tr class = "datarow">
+
+
+An error occurred at line: 100 in the jsp file: /vessels.jsp
+Syntax error on token ";", delete this token
+97:     int data_length= data.size();
+98:     for(int i = 0 ; i< data_length; i++ ) { %>
+99:         <tr class = "datarow">
+100:             <td > <%= data.get(i)[0];%></td>
+101:             <td> <%= data.get(i)[1]%> </td>
+102:             <td> <%= data.get(i)[2]%></td>
+103:             <td> <%= data.get(i)[3]%></td>
+
+
+An error occurred at line: 106 in the jsp file: /vessels.jsp
+Syntax error on token ";", delete this token
+103:             <td> <%= data.get(i)[3]%></td>
+104:             <td >
+105:                 <form method = "get" action = "EditProject.html" >
+106:                     <input type = "hidden" name = "lat" value=<%= data.get(i)[5];%>>
+107:                     <input type = "hidden" name = "long" value=<%= data.get(i)[4];%>>
+108:                   </form>
+109:             </td>
+
+
+An error occurred at line: 107 in the jsp file: /vessels.jsp
+Syntax error on token ";", delete this token
+104:             <td >
+105:                 <form method = "get" action = "EditProject.html" >
+106:                     <input type = "hidden" name = "lat" value=<%= data.get(i)[5];%>>
+107:                     <input type = "hidden" name = "long" value=<%= data.get(i)[4];%>>
+108:                   </form>
+109:             </td>
+110:           </tr>
+
+
+An error occurred at line: [290] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error, insert "}" to complete Block
+
+An error occurred at line: [307] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [308] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:198)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:450)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:585)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:363)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1091)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:673)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2503)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2492)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:722)
+
+02-Sep-2015 17:22:12.976 SEVERE [http-apr-8080-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 75 in the jsp file: /vessels.jsp
+Type mismatch: cannot convert from ArrayList<String[]> to String
+72:     }  
+73:    }  
+74:   }
+75:   return outs;
+76:   }  
+77:   
+78:  
+
+
+An error occurred at line: 96 in the jsp file: /vessels.jsp
+The method readCSV() is undefined for the type vessels_jsp
+93:        
+94:             <th colspan="3"> Actions</th>
+95:          </tr>
+96:   <%  ArrayList<String[]> data = readCSV();
+97:     int data_length= data.size();
+98:     for(int i = 0 ; i< data_length; i++ ) { %>
+99:         <tr class = "datarow">
+
+
+An error occurred at line: 100 in the jsp file: /vessels.jsp
+Syntax error on token ";", delete this token
+97:     int data_length= data.size();
+98:     for(int i = 0 ; i< data_length; i++ ) { %>
+99:         <tr class = "datarow">
+100:             <td > <%= data.get(i)[0];%></td>
+101:             <td> <%= data.get(i)[1]%> </td>
+102:             <td> <%= data.get(i)[2]%></td>
+103:             <td> <%= data.get(i)[3]%></td>
+
+
+An error occurred at line: 106 in the jsp file: /vessels.jsp
+Syntax error on token ";", delete this token
+103:             <td> <%= data.get(i)[3]%></td>
+104:             <td >
+105:                 <form method = "get" action = "EditProject.html" >
+106:                     <input type = "hidden" name = "lat" value=<%= data.get(i)[5];%>>
+107:                     <input type = "hidden" name = "long" value=<%= data.get(i)[4];%>>
+108:                   </form>
+109:             </td>
+
+
+An error occurred at line: 107 in the jsp file: /vessels.jsp
+Syntax error on token ";", delete this token
+104:             <td >
+105:                 <form method = "get" action = "EditProject.html" >
+106:                     <input type = "hidden" name = "lat" value=<%= data.get(i)[5];%>>
+107:                     <input type = "hidden" name = "long" value=<%= data.get(i)[4];%>>
+108:                   </form>
+109:             </td>
+110:           </tr>
+
+
+An error occurred at line: [288] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error, insert "}" to complete Block
+
+An error occurred at line: [305] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [306] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 75 in the jsp file: /vessels.jsp
+Type mismatch: cannot convert from ArrayList<String[]> to String
+72:     }  
+73:    }  
+74:   }
+75:   return outs;
+76:   }  
+77:   
+78:  
+
+
+An error occurred at line: 96 in the jsp file: /vessels.jsp
+The method readCSV() is undefined for the type vessels_jsp
+93:        
+94:             <th colspan="3"> Actions</th>
+95:          </tr>
+96:   <%  ArrayList<String[]> data = readCSV();
+97:     int data_length= data.size();
+98:     for(int i = 0 ; i< data_length; i++ ) { %>
+99:         <tr class = "datarow">
+
+
+An error occurred at line: 100 in the jsp file: /vessels.jsp
+Syntax error on token ";", delete this token
+97:     int data_length= data.size();
+98:     for(int i = 0 ; i< data_length; i++ ) { %>
+99:         <tr class = "datarow">
+100:             <td > <%= data.get(i)[0];%></td>
+101:             <td> <%= data.get(i)[1]%> </td>
+102:             <td> <%= data.get(i)[2]%></td>
+103:             <td> <%= data.get(i)[3]%></td>
+
+
+An error occurred at line: 106 in the jsp file: /vessels.jsp
+Syntax error on token ";", delete this token
+103:             <td> <%= data.get(i)[3]%></td>
+104:             <td >
+105:                 <form method = "get" action = "EditProject.html" >
+106:                     <input type = "hidden" name = "lat" value=<%= data.get(i)[5];%>>
+107:                     <input type = "hidden" name = "long" value=<%= data.get(i)[4];%>>
+108:                   </form>
+109:             </td>
+
+
+An error occurred at line: 107 in the jsp file: /vessels.jsp
+Syntax error on token ";", delete this token
+104:             <td >
+105:                 <form method = "get" action = "EditProject.html" >
+106:                     <input type = "hidden" name = "lat" value=<%= data.get(i)[5];%>>
+107:                     <input type = "hidden" name = "long" value=<%= data.get(i)[4];%>>
+108:                   </form>
+109:             </td>
+110:           </tr>
+
+
+An error occurred at line: [288] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error, insert "}" to complete Block
+
+An error occurred at line: [305] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [306] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:198)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:450)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:585)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:363)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1091)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:673)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2503)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2492)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:722)
+
+02-Sep-2015 17:22:37.777 SEVERE [http-apr-8080-exec-6] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 96 in the jsp file: /vessels.jsp
+The method readCSV() is undefined for the type vessels_jsp
+93:        
+94:             <th colspan="3"> Actions</th>
+95:          </tr>
+96:   <%  ArrayList<String[]> data = readCSV();
+97:     int data_length= data.size();
+98:     for(int i = 0 ; i< data_length; i++ ) { %>
+99:         <tr class = "datarow">
+
+
+An error occurred at line: 100 in the jsp file: /vessels.jsp
+Syntax error on token ";", delete this token
+97:     int data_length= data.size();
+98:     for(int i = 0 ; i< data_length; i++ ) { %>
+99:         <tr class = "datarow">
+100:             <td > <%= data.get(i)[0];%></td>
+101:             <td> <%= data.get(i)[1]%> </td>
+102:             <td> <%= data.get(i)[2]%></td>
+103:             <td> <%= data.get(i)[3]%></td>
+
+
+An error occurred at line: 106 in the jsp file: /vessels.jsp
+Syntax error on token ";", delete this token
+103:             <td> <%= data.get(i)[3]%></td>
+104:             <td >
+105:                 <form method = "get" action = "EditProject.html" >
+106:                     <input type = "hidden" name = "lat" value=<%= data.get(i)[5];%>>
+107:                     <input type = "hidden" name = "long" value=<%= data.get(i)[4];%>>
+108:                   </form>
+109:             </td>
+
+
+An error occurred at line: 107 in the jsp file: /vessels.jsp
+Syntax error on token ";", delete this token
+104:             <td >
+105:                 <form method = "get" action = "EditProject.html" >
+106:                     <input type = "hidden" name = "lat" value=<%= data.get(i)[5];%>>
+107:                     <input type = "hidden" name = "long" value=<%= data.get(i)[4];%>>
+108:                   </form>
+109:             </td>
+110:           </tr>
+
+
+An error occurred at line: [288] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error, insert "}" to complete Block
+
+An error occurred at line: [305] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [306] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 96 in the jsp file: /vessels.jsp
+The method readCSV() is undefined for the type vessels_jsp
+93:        
+94:             <th colspan="3"> Actions</th>
+95:          </tr>
+96:   <%  ArrayList<String[]> data = readCSV();
+97:     int data_length= data.size();
+98:     for(int i = 0 ; i< data_length; i++ ) { %>
+99:         <tr class = "datarow">
+
+
+An error occurred at line: 100 in the jsp file: /vessels.jsp
+Syntax error on token ";", delete this token
+97:     int data_length= data.size();
+98:     for(int i = 0 ; i< data_length; i++ ) { %>
+99:         <tr class = "datarow">
+100:             <td > <%= data.get(i)[0];%></td>
+101:             <td> <%= data.get(i)[1]%> </td>
+102:             <td> <%= data.get(i)[2]%></td>
+103:             <td> <%= data.get(i)[3]%></td>
+
+
+An error occurred at line: 106 in the jsp file: /vessels.jsp
+Syntax error on token ";", delete this token
+103:             <td> <%= data.get(i)[3]%></td>
+104:             <td >
+105:                 <form method = "get" action = "EditProject.html" >
+106:                     <input type = "hidden" name = "lat" value=<%= data.get(i)[5];%>>
+107:                     <input type = "hidden" name = "long" value=<%= data.get(i)[4];%>>
+108:                   </form>
+109:             </td>
+
+
+An error occurred at line: 107 in the jsp file: /vessels.jsp
+Syntax error on token ";", delete this token
+104:             <td >
+105:                 <form method = "get" action = "EditProject.html" >
+106:                     <input type = "hidden" name = "lat" value=<%= data.get(i)[5];%>>
+107:                     <input type = "hidden" name = "long" value=<%= data.get(i)[4];%>>
+108:                   </form>
+109:             </td>
+110:           </tr>
+
+
+An error occurred at line: [288] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error, insert "}" to complete Block
+
+An error occurred at line: [305] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [306] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:198)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:450)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:585)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:363)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1091)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:673)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2503)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2492)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:722)
+
+02-Sep-2015 17:23:03.327 SEVERE [http-apr-8080-exec-8] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 100 in the jsp file: /vessels.jsp
+Syntax error on token ";", delete this token
+97:     int data_length= data.size();
+98:     for(int i = 0 ; i< data_length; i++ ) { %>
+99:         <tr class = "datarow">
+100:             <td > <%= data.get(i)[0];%></td>
+101:             <td> <%= data.get(i)[1]%> </td>
+102:             <td> <%= data.get(i)[2]%></td>
+103:             <td> <%= data.get(i)[3]%></td>
+
+
+An error occurred at line: 106 in the jsp file: /vessels.jsp
+Syntax error on token ";", delete this token
+103:             <td> <%= data.get(i)[3]%></td>
+104:             <td >
+105:                 <form method = "get" action = "EditProject.html" >
+106:                     <input type = "hidden" name = "lat" value=<%= data.get(i)[5];%>>
+107:                     <input type = "hidden" name = "long" value=<%= data.get(i)[4];%>>
+108:                   </form>
+109:             </td>
+
+
+An error occurred at line: 107 in the jsp file: /vessels.jsp
+Syntax error on token ";", delete this token
+104:             <td >
+105:                 <form method = "get" action = "EditProject.html" >
+106:                     <input type = "hidden" name = "lat" value=<%= data.get(i)[5];%>>
+107:                     <input type = "hidden" name = "long" value=<%= data.get(i)[4];%>>
+108:                   </form>
+109:             </td>
+110:           </tr>
+
+
+An error occurred at line: [288] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error, insert "}" to complete Block
+
+An error occurred at line: [305] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [306] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 100 in the jsp file: /vessels.jsp
+Syntax error on token ";", delete this token
+97:     int data_length= data.size();
+98:     for(int i = 0 ; i< data_length; i++ ) { %>
+99:         <tr class = "datarow">
+100:             <td > <%= data.get(i)[0];%></td>
+101:             <td> <%= data.get(i)[1]%> </td>
+102:             <td> <%= data.get(i)[2]%></td>
+103:             <td> <%= data.get(i)[3]%></td>
+
+
+An error occurred at line: 106 in the jsp file: /vessels.jsp
+Syntax error on token ";", delete this token
+103:             <td> <%= data.get(i)[3]%></td>
+104:             <td >
+105:                 <form method = "get" action = "EditProject.html" >
+106:                     <input type = "hidden" name = "lat" value=<%= data.get(i)[5];%>>
+107:                     <input type = "hidden" name = "long" value=<%= data.get(i)[4];%>>
+108:                   </form>
+109:             </td>
+
+
+An error occurred at line: 107 in the jsp file: /vessels.jsp
+Syntax error on token ";", delete this token
+104:             <td >
+105:                 <form method = "get" action = "EditProject.html" >
+106:                     <input type = "hidden" name = "lat" value=<%= data.get(i)[5];%>>
+107:                     <input type = "hidden" name = "long" value=<%= data.get(i)[4];%>>
+108:                   </form>
+109:             </td>
+110:           </tr>
+
+
+An error occurred at line: [288] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error, insert "}" to complete Block
+
+An error occurred at line: [305] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [306] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:198)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:450)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:585)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:363)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1091)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:673)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2503)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2492)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:722)
+
+02-Sep-2015 17:23:22.097 SEVERE [http-apr-8080-exec-10] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 106 in the jsp file: /vessels.jsp
+Syntax error on token ";", delete this token
+103:             <td> <%= data.get(i)[3]%></td>
+104:             <td >
+105:                 <form method = "get" action = "EditProject.html" >
+106:                     <input type = "hidden" name = "lat" value=<%= data.get(i)[5];%>>
+107:                     <input type = "hidden" name = "long" value=<%= data.get(i)[4];%>>
+108:                   </form>
+109:             </td>
+
+
+An error occurred at line: 107 in the jsp file: /vessels.jsp
+Syntax error on token ";", delete this token
+104:             <td >
+105:                 <form method = "get" action = "EditProject.html" >
+106:                     <input type = "hidden" name = "lat" value=<%= data.get(i)[5];%>>
+107:                     <input type = "hidden" name = "long" value=<%= data.get(i)[4];%>>
+108:                   </form>
+109:             </td>
+110:           </tr>
+
+
+An error occurred at line: [288] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error, insert "}" to complete Block
+
+An error occurred at line: [305] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [306] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 106 in the jsp file: /vessels.jsp
+Syntax error on token ";", delete this token
+103:             <td> <%= data.get(i)[3]%></td>
+104:             <td >
+105:                 <form method = "get" action = "EditProject.html" >
+106:                     <input type = "hidden" name = "lat" value=<%= data.get(i)[5];%>>
+107:                     <input type = "hidden" name = "long" value=<%= data.get(i)[4];%>>
+108:                   </form>
+109:             </td>
+
+
+An error occurred at line: 107 in the jsp file: /vessels.jsp
+Syntax error on token ";", delete this token
+104:             <td >
+105:                 <form method = "get" action = "EditProject.html" >
+106:                     <input type = "hidden" name = "lat" value=<%= data.get(i)[5];%>>
+107:                     <input type = "hidden" name = "long" value=<%= data.get(i)[4];%>>
+108:                   </form>
+109:             </td>
+110:           </tr>
+
+
+An error occurred at line: [288] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error, insert "}" to complete Block
+
+An error occurred at line: [305] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [306] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:198)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:450)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:585)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:363)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1091)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:673)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2503)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2492)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:722)
+
+02-Sep-2015 17:23:38.356 SEVERE [http-apr-8080-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [288] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error, insert "}" to complete Block
+
+An error occurred at line: [305] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [306] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [288] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error, insert "}" to complete Block
+
+An error occurred at line: [305] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [306] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:198)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:450)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:585)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:363)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1091)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:673)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2503)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2492)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:722)
+
+02-Sep-2015 17:26:39.761 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+02-Sep-2015 17:26:39.761 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+02-Sep-2015 17:29:00.955 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+02-Sep-2015 17:29:00.955 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+02-Sep-2015 17:29:07.952 SEVERE [http-apr-8080-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [288] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error, insert "}" to complete Block
+
+An error occurred at line: [305] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [306] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [288] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error, insert "}" to complete Block
+
+An error occurred at line: [305] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [306] in the generated java file: [C:\Program Files\Apache Software\apache-tomcat-8.0.26\work\Catalina\localhost\ROOT\org\apache\jsp\vessels_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:198)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:450)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:585)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:363)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1091)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:673)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2503)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2492)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:722)
+
+02-Sep-2015 17:46:07.013 SEVERE [http-apr-8080-exec-5] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 109 in the jsp file: /vessels.jsp
+The left-hand side of an assignment must be a variable
+106:                   </form>
+107:             </td>
+108: 
+109:             <p hidden id = <%("lat"+i)%>><%= data.get(i)[5]%> </p>
+110:             <p hidden id = <%("long"+i)%>><%= data.get(i)[4]%> </p>
+111:             
+112:           </tr>
+
+
+An error occurred at line: 109 in the jsp file: /vessels.jsp
+Syntax error, insert "AssignmentOperator Expression" to complete Assignment
+106:                   </form>
+107:             </td>
+108: 
+109:             <p hidden id = <%("lat"+i)%>><%= data.get(i)[5]%> </p>
+110:             <p hidden id = <%("long"+i)%>><%= data.get(i)[4]%> </p>
+111:             
+112:           </tr>
+
+
+An error occurred at line: 109 in the jsp file: /vessels.jsp
+Syntax error, insert ";" to complete Statement
+106:                   </form>
+107:             </td>
+108: 
+109:             <p hidden id = <%("lat"+i)%>><%= data.get(i)[5]%> </p>
+110:             <p hidden id = <%("long"+i)%>><%= data.get(i)[4]%> </p>
+111:             
+112:           </tr>
+
+
+An error occurred at line: 110 in the jsp file: /vessels.jsp
+The left-hand side of an assignment must be a variable
+107:             </td>
+108: 
+109:             <p hidden id = <%("lat"+i)%>><%= data.get(i)[5]%> </p>
+110:             <p hidden id = <%("long"+i)%>><%= data.get(i)[4]%> </p>
+111:             
+112:           </tr>
+113:       
+
+
+An error occurred at line: 110 in the jsp file: /vessels.jsp
+Syntax error, insert "AssignmentOperator Expression" to complete Assignment
+107:             </td>
+108: 
+109:             <p hidden id = <%("lat"+i)%>><%= data.get(i)[5]%> </p>
+110:             <p hidden id = <%("long"+i)%>><%= data.get(i)[4]%> </p>
+111:             
+112:           </tr>
+113:       
+
+
+An error occurred at line: 110 in the jsp file: /vessels.jsp
+Syntax error, insert ";" to complete Statement
+107:             </td>
+108: 
+109:             <p hidden id = <%("lat"+i)%>><%= data.get(i)[5]%> </p>
+110:             <p hidden id = <%("long"+i)%>><%= data.get(i)[4]%> </p>
+111:             
+112:           </tr>
+113:       
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 109 in the jsp file: /vessels.jsp
+The left-hand side of an assignment must be a variable
+106:                   </form>
+107:             </td>
+108: 
+109:             <p hidden id = <%("lat"+i)%>><%= data.get(i)[5]%> </p>
+110:             <p hidden id = <%("long"+i)%>><%= data.get(i)[4]%> </p>
+111:             
+112:           </tr>
+
+
+An error occurred at line: 109 in the jsp file: /vessels.jsp
+Syntax error, insert "AssignmentOperator Expression" to complete Assignment
+106:                   </form>
+107:             </td>
+108: 
+109:             <p hidden id = <%("lat"+i)%>><%= data.get(i)[5]%> </p>
+110:             <p hidden id = <%("long"+i)%>><%= data.get(i)[4]%> </p>
+111:             
+112:           </tr>
+
+
+An error occurred at line: 109 in the jsp file: /vessels.jsp
+Syntax error, insert ";" to complete Statement
+106:                   </form>
+107:             </td>
+108: 
+109:             <p hidden id = <%("lat"+i)%>><%= data.get(i)[5]%> </p>
+110:             <p hidden id = <%("long"+i)%>><%= data.get(i)[4]%> </p>
+111:             
+112:           </tr>
+
+
+An error occurred at line: 110 in the jsp file: /vessels.jsp
+The left-hand side of an assignment must be a variable
+107:             </td>
+108: 
+109:             <p hidden id = <%("lat"+i)%>><%= data.get(i)[5]%> </p>
+110:             <p hidden id = <%("long"+i)%>><%= data.get(i)[4]%> </p>
+111:             
+112:           </tr>
+113:       
+
+
+An error occurred at line: 110 in the jsp file: /vessels.jsp
+Syntax error, insert "AssignmentOperator Expression" to complete Assignment
+107:             </td>
+108: 
+109:             <p hidden id = <%("lat"+i)%>><%= data.get(i)[5]%> </p>
+110:             <p hidden id = <%("long"+i)%>><%= data.get(i)[4]%> </p>
+111:             
+112:           </tr>
+113:       
+
+
+An error occurred at line: 110 in the jsp file: /vessels.jsp
+Syntax error, insert ";" to complete Statement
+107:             </td>
+108: 
+109:             <p hidden id = <%("lat"+i)%>><%= data.get(i)[5]%> </p>
+110:             <p hidden id = <%("long"+i)%>><%= data.get(i)[4]%> </p>
+111:             
+112:           </tr>
+113:       
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:198)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:450)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:585)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:363)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1091)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:673)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2503)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2492)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:722)
+
+02-Sep-2015 18:20:24.404 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+02-Sep-2015 18:20:24.405 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+02-Sep-2015 18:20:37.800 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+02-Sep-2015 18:20:37.800 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+02-Sep-2015 18:53:43.508 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+02-Sep-2015 18:53:43.508 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+02-Sep-2015 18:53:51.383 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+02-Sep-2015 18:53:51.384 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+02-Sep-2015 19:38:14.816 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+02-Sep-2015 19:38:14.816 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
