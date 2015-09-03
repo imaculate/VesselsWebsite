@@ -35,6 +35,7 @@
 <form name="searchform"  action="" method="get">
   <input type = "text" name="searchtext"  placeholder = "Enter text, click Search ">
   <input  type="button" class= "buttons"name="searchbuton" Value="Search" onclick="replaceSearch(this.form)">
+
   
 </form>
 </div>
