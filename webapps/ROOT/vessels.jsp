@@ -29,7 +29,7 @@
   <script src= "http://www.google.com/jsapi" type="text/javascript"></script>
 </head>
 <body>
-  <h1> Welcome to Data Maritime Systems! </h1>
+  <h1> Welcome to  Maritime Data Systems! </h1>
   <h3> Here is information regarding our vessels,  use the sort button to sort in ascending order: </h3>
 <div id="searchbox">
 <form name="searchform"  action="" method="get">
