@@ -29,7 +29,7 @@
 <body>
 
 <form name="searchform"  action="" method="get">
-  <input type = "text" name="searchtext"  placeholder = "Enter search text">
+  <input type = "text" name="searchtext"  placeholder = "Enter search text then click Search button">
   <input  type="button" class= "buttons"name="searchbuton" Value="Search" onclick="replaceSearch(this.form)">
   
 </form>
@@ -189,8 +189,7 @@ String csvFileToRead = "vessels.csv";
 
   <script type= "text/javascript">
   function mysort(column){
-      var newtable = document.createElement("table");
-      newtable.id = 'datatable';
+      
       if(column == "vesselname"){
         vessels.sort(function(a, b) {
              return a.vesselname.localeCompare(b.vesselname);
@@ -209,103 +208,26 @@ String csvFileToRead = "vessels.csv";
         vessels.sort(function(a, b) {
              return (a.typev.localeCompare(b.typev));
         });
-      } 
-      var hrow = document.createElement('tr');
-      hrow.setAtribute = ('class', "firstrow");
+      }
+
+      replaceTable(vessels);
      
-
-      var h1 = document.createElement('th');
-      h1.textContent = "Vessel Name";
-      var b1 = document.createElement('button');
-      b1.setAttribute('onclick', "mysort('vesselname')");
-      b1.innerHTML = 'Sort'
-      h1.appendChild(b1);
-      hrow.appendChild(h1);
-
-      var h2 = document.createElement('th');
-      h2.textContent = "Imo";
-      var b2 = document.createElement('button');
-     b2.setAttribute('onclick', "mysort('imo')");
-      b2.innerHTML = 'Sort';
-      h2.appendChild(b2);
-      hrow.appendChild(h2);
-
-      var h3 = document.createElement('th');
-      h3.textContent = "Mmsi";
-      var b3 = document.createElement('button');
-      b3.setAttribute('onclick', "mysort('mmsi')");
-      b3.innerHTML = 'Sort';
-      h3.appendChild(b3);
-      hrow.appendChild(h3);
-
-      var h4 = document.createElement('th');
-      h4.textContent = "Type";
-      var b4 = document.createElement('button');
-      b4.setAttribute('onclick', "mysort('type')");
-      b4.innerHTML = 'Sort';
-      h4.appendChild(b4);
-      hrow.appendChild(h4);
-
-       newtable.appendChild(hrow); 
-        
-      for (var k = 0; k < vessels.length; k++) {
-  
-        var vals = vessels[k];
-    
-         var row = document.createElement('tr');
-       
-        var cell1 = document.createElement('td');
-        cell1.textContent = vals.vesselname;    
-        row.appendChild(cell1);
-
-
-        var cell2 = document.createElement('td');
-        cell2.textContent = vals.imo;    
-        row.appendChild(cell2);
-
-
-        var cell3 = document.createElement('td');
-        cell3.textContent = vals.mmsi;    
-        row.appendChild(cell3);
-
-
-        var cell4 = document.createElement('td');
-        cell4.textContent = vals.typev;
-        row.appendChild(cell4);
-
-      
-
-        var cell5 = document.createElement('td');
-        cell5.textContent = vals.latitude;
-        cell5.style.display = 'none';
-        row.appendChild(cell5);
-
-        var cell6 = document.createElement('td');
-        cell6.textContent = vals.longitude;
-        cell6.style.display = 'none';
-        row.appendChild(cell6);
-
-            newtable.appendChild(row);
-    }
-    
-
-  
-
-    document.body.replaceChild(newtable, document.getElementById("datatable"));
   }
   </script>
   <script type = "text/javascript">
 
   function replaceSearch(form){
-    console.log("in search function");
+    
     var txt =  form.searchtext.value;
 
-    console.log(txt);
+    
     var select= [];
     for(var i = 0; i< vessels.length; i++){
 
         var v = vessels[i];
-        if((v.vesselname.indexOf(txt) > -1)||(v.imo.indexOf(txt) > -1)||(v.mmsi.indexOf(txt) > -1)||(v.typev.indexOf(txt) > -1)){
+
+        if((String(v.vesselname).toUpperCase().indexOf(txt.toUpperCase()) > -1)||(v.imo.indexOf(txt) > -1)||(v.mmsi.indexOf(txt) > -1)||
+          (String(v.typev).toUpperCase().indexOf(txt.toUpperCase()) > -1)){
 
             select.push(v);
         }
@@ -317,8 +239,20 @@ String csvFileToRead = "vessels.csv";
       
     }else{
 
-      console.log(select.length);
-      var newtable = document.createElement("table");
+    
+     replaceTable(select);
+  
+
+    }
+    
+  }
+</script>
+
+<script type="text/javascript">
+function replaceTable(mlist){
+
+
+ var newtable = document.createElement("table");
        newtable.id = 'datatable';
       var hrow = document.createElement('tr');
       hrow.setAtribute = ('class', "firstrow");
@@ -358,9 +292,9 @@ String csvFileToRead = "vessels.csv";
 
        newtable.appendChild(hrow); 
         
-      for (var k = 0; k < select.length; k++) {
+      for (var k = 0; k < mlist.length; k++) {
   
-        var vals = select[k];
+        var vals = mlist[k];
     
          var row = document.createElement('tr');
        
@@ -402,11 +336,7 @@ String csvFileToRead = "vessels.csv";
   
 
     document.body.replaceChild(newtable, document.getElementById("datatable"));
-  
-
-    }
-    
-  }
+}
 </script>
 
  
