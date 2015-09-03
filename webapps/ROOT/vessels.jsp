@@ -95,10 +95,10 @@ String csvFileToRead = "vessels.csv";
 
        
          </tr>
-         <div id = "tdiv">
-  <%  ArrayList<String[]> data = readCsv();
-    int data_length= data.size();
-    for(int i = 0 ; i< data_length; i++ ) { %>
+      
+        <%  ArrayList<String[]> data = readCsv();
+          int data_length= data.size();
+            for(int i = 0 ; i< data_length; i++ ) { %>
         <tr class = "datarow">
             <td > <%= data.get(i)[0]%></td>
             <td> <%= data.get(i)[1]%> </td>
@@ -119,9 +119,10 @@ String csvFileToRead = "vessels.csv";
 
   <%  }%>
 
-</div>
+
 
 </table>
+
 
 <script type="text/javascript">
       var data_rows = document.getElementById("datatable").rows;
@@ -182,7 +183,8 @@ String csvFileToRead = "vessels.csv";
 
   <script type= "text/javascript">
   function mysort(column){
-      var tdiv = document.getElementById("tdiv");
+      var newtable = document.createElement("table");
+      newtable.id = 'datatable';
       if(column == "vesselname"){
         vessels.sort(function(a, b) {
              return a.vesselname.localeCompare(b.vesselname);
@@ -202,11 +204,44 @@ String csvFileToRead = "vessels.csv";
              return (a.typev.localeCompare(b.typev));
         });
       } 
-      //tdiv.innerHTML = "";
-      while(tdiv.firstChild){
-          tdiv.removeChild(tdiv.firstChild);
-      }
-    
+      var hrow = document.createElement('tr');
+      hrow.setAtribute = ('class', "firstrow");
+     
+
+      var h1 = document.createElement('th');
+      h1.textContent = "Vessel Name";
+      var b1 = document.createElement('button');
+      b1.setAttribute('onclick', "mysort('vesselname')");
+      b1.innerHTML = 'Sort'
+      h1.appendChild(b1);
+      hrow.appendChild(h1);
+
+      var h2 = document.createElement('th');
+      h2.textContent = "Imo";
+      var b2 = document.createElement('button');
+     b2.setAttribute('onclick', "mysort('imo')");
+      b2.innerHTML = 'Sort';
+      h2.appendChild(b2);
+      hrow.appendChild(h2);
+
+      var h3 = document.createElement('th');
+      h3.textContent = "Mmsi";
+      var b3 = document.createElement('button');
+      b3.setAttribute('onclick', "mysort('mmsi')");
+      b3.innerHTML = 'Sort';
+      h3.appendChild(b3);
+      hrow.appendChild(h3);
+
+      var h4 = document.createElement('th');
+      h4.textContent = "Type";
+      var b4 = document.createElement('button');
+      b4.setAttribute('onclick', "mysort('type')");
+      b4.innerHTML = 'Sort';
+      h4.appendChild(b4);
+      hrow.appendChild(h4);
+
+       newtable.appendChild(hrow); 
+        
       for (var k = 0; k < vessels.length; k++) {
   
         var vals = vessels[k];
@@ -244,8 +279,13 @@ String csvFileToRead = "vessels.csv";
         cell6.style.display = 'none';
         row.appendChild(cell6);
 
-            tdiv.appendChild(row);
+            newtable.appendChild(row);
     }
+    
+
+  
+
+    document.body.replaceChild(newtable, document.getElementById("datatable"));
  
 
   }
