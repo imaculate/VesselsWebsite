@@ -4,7 +4,7 @@ Author: Imaculate Mosha
 Date Completed : 3rd September 2015
 
 Description:
-Exam for MaritimeDataSystems recruitment.
+Exam for MaritimeDataSystems.
 
 Instructions:
 Navigate to the \bin folder.
@@ -13,7 +13,7 @@ Navigate to localhost:8080/vessels.jsp on your browser
 You can sort the columns , search for an entry and see the ships on a map. 
 
 
-List of files:
+List of relevant files:
 \webapps\ROOT\vessels.jsp
 \webapps\ROOT\vessels.css
 
