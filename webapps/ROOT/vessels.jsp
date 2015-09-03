@@ -21,18 +21,23 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-<head><title>Hello World</title>
+<head>
+  <title>Track our ships!</title>
+  <link rel="stylesheet" type="text/css" href="vessels.css">
  <script src="http://maps.google.com/maps/api/js?sensor=false" 
           type="text/javascript"></script>
   <script src= "http://www.google.com/jsapi" type="text/javascript"></script>
 </head>
 <body>
-
+  <h1> Welcome to Data Maritime Systems! </h1>
+  <h3> Here is information regarding our vessels,  use the sort button to sort in ascending order: </h3>
+<div id="searchbox">
 <form name="searchform"  action="" method="get">
-  <input type = "text" name="searchtext"  placeholder = "Enter search text then click Search button">
+  <input type = "text" name="searchtext"  placeholder = "Enter text, click Search ">
   <input  type="button" class= "buttons"name="searchbuton" Value="Search" onclick="replaceSearch(this.form)">
   
 </form>
+</div>
 
 
 <%!
@@ -94,10 +99,10 @@ String csvFileToRead = "vessels.csv";
         <tr class="firstrow">
         
 
-            <th > Vessel Name <button onclick="mysort('vesselname')">Sort</button> </th>
-            <th > Imo <button onclick="mysort('imo')">Sort</button></th>
-            <th > Mmsi <button onclick="mysort('mmsi')">Sort</button></th>
-            <th > Type <button onclick="mysort('type')">Sort</button></th>
+            <th > Vessel Name <button onclick="mysort('vesselname')" class = 'buttons'>Sort</button> </th>
+            <th > Imo <button onclick="mysort('imo')" class = 'buttons'>Sort</button></th>
+            <th > Mmsi <button onclick="mysort('mmsi')" class = 'buttons'>Sort</button></th>
+            <th > Type <button onclick="mysort('type')" class = 'buttons'>Sort</button></th>
 
        
          </tr>
@@ -145,6 +150,7 @@ String csvFileToRead = "vessels.csv";
 
     }
 </script>
+<h3>  You can track them here. </h3>
 <div id="map" style="width: 80%; height: 500px;"></div>
 
 <script type="text/javascript">
@@ -262,6 +268,7 @@ function replaceTable(mlist){
       h1.textContent = "Vessel Name";
       var b1 = document.createElement('button');
       b1.setAttribute('onclick', "mysort('vesselname')");
+      b1.setAttribute('class' , "buttons");
       b1.innerHTML = 'Sort'
       h1.appendChild(b1);
       hrow.appendChild(h1);
@@ -270,6 +277,7 @@ function replaceTable(mlist){
       h2.textContent = "Imo";
       var b2 = document.createElement('button');
      b2.setAttribute('onclick', "mysort('imo')");
+      b2.setAttribute('class' , "buttons");
       b2.innerHTML = 'Sort';
       h2.appendChild(b2);
       hrow.appendChild(h2);
@@ -278,6 +286,7 @@ function replaceTable(mlist){
       h3.textContent = "Mmsi";
       var b3 = document.createElement('button');
       b3.setAttribute('onclick', "mysort('mmsi')");
+       b3.setAttribute('class' , "buttons");
       b3.innerHTML = 'Sort';
       h3.appendChild(b3);
       hrow.appendChild(h3);
@@ -286,6 +295,7 @@ function replaceTable(mlist){
       h4.textContent = "Type";
       var b4 = document.createElement('button');
       b4.setAttribute('onclick', "mysort('type')");
+       b4.setAttribute('class' , "buttons");
       b4.innerHTML = 'Sort';
       h4.appendChild(b4);
       hrow.appendChild(h4);
